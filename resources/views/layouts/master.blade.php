@@ -87,8 +87,7 @@
 	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
 
 	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
-	                                        <li><a href="">Facilities</a></li>
-	                                        <li><a href="">Leadership Team</a></li>
+	                                        
 	                                        <li><a href="{{url('/facility/school-facility')}}">Facilities</a></li>
 
 	                                        <li><a href="">Gallery</a></li>
