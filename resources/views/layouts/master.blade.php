@@ -80,7 +80,7 @@
 	                                <li><a href="">Home</a></li>
 	                                <li class="current dropdown"><a href="#">About Us</a>
 	                                    <ul>
-	                                        <li><a href="">Who We Are</a></li>
+	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
 	                                        <li><a href="">Board of Directors</a></li>
 	                                        <li><a href="">Leadership Team</a></li>
 	                                        <li><a href="">Facilities</a></li>
@@ -144,10 +144,10 @@
 	                        
 	                        <div class="navbar-collapse collapse clearfix">
 	                            <ul class="navigation clearfix">
-	                                <li class="current dropdown"><a href="/">Home</a> </li>
-	                                <li class="dropdown"><a href="#">About Us</a>
+	                                <li class="{{Request::is('/') ? 'current' : ''}} dropdown"><a href="/">Home</a> </li>
+	                                <li class="{{Request::is('about/*') ? 'current' : ''}} dropdown"><a href="#">About Us</a>
 	                                    <ul>
-	                                        <li><a href="">Who We Are</a></li>
+	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
 	                                        <li><a href="">Board of Directors</a></li>
 	                                        <li><a href="">Leadership Team</a></li>
 	                                        <li><a href="">Facilities</a></li>
@@ -228,7 +228,7 @@
 	                                	<div class="widget-content">
 	                                    	<ul class="list">
 	                                            <li><a href="#">Home</a></li>
-	                                            <li><a href="#">About</a></li>
+	                                            <li><a href="{{action('HomeController@whoweare')}}">About</a></li>
 	                                            <li><a href="#">Academics</a></li>
 	                                            <li><a href="#">Virtual Tour</a></li>
 	                                            <li><a href="#">Contact Us</a></li>

@@ -19,3 +19,4 @@ Auth::routes();
 
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/about/who-we-are', 'HomeController@whoweare')->name('whoweare');
