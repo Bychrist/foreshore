@@ -42,7 +42,9 @@
 	            	<!--Top Left-->
 	            	<div class="top-left pull-left">
 	                	<ul class="links-nav clearfix">
-	                    	<li><span class="icon fa fa-envelope-o"></span><a >Info@foreshore.com</a></li>
+	                    	<li><span class="icon fa fa-envelope-o"></span><a >
+info@tfsikoyi.com
+</a></li>
 	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
 	                    </ul>
 	                </div>
@@ -105,7 +107,7 @@
 	                                  <li class="dropdown"><a href="#">Facility</a>
 	                                      <ul>
 	                                          <li><a href="">School Facilities</a></li>
-	                                          <li><a href="">Facility Development</a></li>
+	                                          <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                       
 	                                      </ul>
 	                                  </li>
@@ -167,7 +169,7 @@
 	                                <li class="dropdown"><a href="">Facility</a>
 	                                    <ul>
 	                                        <li><a href="">School Facilities</a></li>
-	                                        <li><a href="">Facility Development</a></li>
+	                                        <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                    </ul>
 	                                </li>
 	                                <li><a href="">Parent's Portal</a></li>

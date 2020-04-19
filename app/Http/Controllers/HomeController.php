@@ -36,6 +36,11 @@ class HomeController extends Controller
         return view('virtualTour');
     }
 
+     public function facilityDevelopment()
+    {
+        return view('facilityDevelopment');
+    }
+
 
     
 }
