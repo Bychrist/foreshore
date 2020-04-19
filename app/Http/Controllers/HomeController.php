@@ -31,6 +31,11 @@ class HomeController extends Controller
         return view('whoweare');
     }
 
+     public function virtual()
+    {
+        return view('virtualTour');
+    }
+
 
     
 }

@@ -77,7 +77,7 @@
 	                            <!--Left Nav-->
 	                            <ul class="navigation left-nav clearfix">
 
-	                                <li><a href="">Home</a></li>
+	                                <li><a href="{{url('/')}}">Home</a></li>
 	                                <li class="current dropdown"><a href="#">About Us</a>
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
@@ -97,7 +97,7 @@
 	                                        <li><a href="">Parents HandBook</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li class="dropdown"><a href="#">Virtual Tour</a></li>
+	                                <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
 	                            </ul>
 	                            <!--Right Nav-->
 
@@ -144,7 +144,7 @@
 	                        
 	                        <div class="navbar-collapse collapse clearfix">
 	                            <ul class="navigation clearfix">
-	                                <li class="{{Request::is('/') ? 'current' : ''}} dropdown"><a href="/">Home</a> </li>
+	                                <li class="{{Request::is('/') ? 'current' : ''}} "><a href="/">Home</a> </li>
 	                                <li class="{{Request::is('about/*') ? 'current' : ''}} dropdown"><a href="#">About Us</a>
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
@@ -163,8 +163,8 @@
 	                                        <li><a href="">Parent Handbook</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li><a href="">Virtual Tour</a></li>
-	                                <li class="dropdown"><a href="#">Facility</a>
+	                                <li class="{{Request::is('/virtual') ? 'current' : ''}}"><a href="{{url('/virtual')}}">Virtual Tour</a></li>
+	                                <li class="dropdown"><a href="">Facility</a>
 	                                    <ul>
 	                                        <li><a href="">School Facilities</a></li>
 	                                        <li><a href="">Facility Development</a></li>
@@ -227,10 +227,10 @@
 	                                    </div>
 	                                	<div class="widget-content">
 	                                    	<ul class="list">
-	                                            <li><a href="#">Home</a></li>
+	                                            <li><a href="{{url('/')}}">Home</a></li>
 	                                            <li><a href="{{action('HomeController@whoweare')}}">About</a></li>
 	                                            <li><a href="#">Academics</a></li>
-	                                            <li><a href="#">Virtual Tour</a></li>
+	                                            <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
 	                                            <li><a href="#">Contact Us</a></li>
 	                                        </ul>
 										</div>
