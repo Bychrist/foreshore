@@ -20,6 +20,10 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about/who-we-are', 'HomeController@whoweare')->name('whoweare');
+<<<<<<< HEAD
 Route::get('/virtual', 'HomeController@virtual')->name('virtual');
 Route::get('/facility/development', 'HomeController@facilityDevelopment')->name('development');
 Route::get('/parents-portal', 'HomeController@parentsPortal')->name('portal');
+=======
+Route::get('/about/board-of-directors', 'HomeController@boardofdirectors')->name('boardofdirectors');
+>>>>>>> Gabriel

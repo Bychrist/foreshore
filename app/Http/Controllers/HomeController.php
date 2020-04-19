@@ -31,6 +31,7 @@ class HomeController extends Controller
         return view('whoweare');
     }
 
+
      public function virtual()
     {
         return view('virtualTour');
@@ -44,6 +45,12 @@ class HomeController extends Controller
     public function parentsPortal()
     {
         return view('parentsPortal');
+    }
+     
+     public function boardofdirectors()
+    {
+        return view('boardofdirectors');
+ 
     }
 
 
