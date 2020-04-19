@@ -80,6 +80,54 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+
+
+
+.scroll-bar-wrap {
+
+  position: relative;
+  text-align: justify;
+
+}
+.scroll-box {
+  height: 200px;
+  padding: 10px; 
+  overflow-y: scroll;
+}
+.scroll-box::-webkit-scrollbar {
+  width: .4em; 
+}
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-thumb {
+  overflow:visible;
+  border-radius: 4px;
+}
+.scroll-box::-webkit-scrollbar-thumb {
+  background: #ccc; 
+}
+.cover-bar {
+  position: absolute;
+  background: #fafafa;
+  text-align: justify;
+  height: 100%;  
+    overflow:visible;
+  top: 0;
+  right: 0;
+  width: .4em;
+  -webkit-transition: all .5s;
+  opacity: 1;
+}
+/* MAGIC HAPPENS HERE */
+.scroll-bar-wrap:hover .cover-bar {
+   opacity: 0;
+   text-align: justify;	
+  -webkit-transition: all .5s;
+}
+
+
+
+
+
 a{
 	text-decoration:none;
 	cursor:pointer;
