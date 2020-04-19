@@ -42,7 +42,7 @@
 	            	<!--Top Left-->
 	            	<div class="top-left pull-left">
 	                	<ul class="links-nav clearfix">
-	                    	<li><span class="icon fa fa-envelope-o"></span><a >Info@Kindergarten.com</a></li>
+	                    	<li><span class="icon fa fa-envelope-o"></span><a >Info@foreshore.com</a></li>
 	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
 	                    </ul>
 	                </div>
