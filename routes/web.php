@@ -25,6 +25,7 @@ Route::get('/virtual', 'HomeController@virtual')->name('virtual');
 Route::get('/facility/development', 'HomeController@facilityDevelopment')->name('development');
 Route::get('/facility/school-facility', 'HomeController@schoolFacility')->name('facility');
 Route::get('/parents-portal', 'HomeController@parentsPortal')->name('portal');
+Route::get('/about/leadership-team', 'HomeController@leadershipteam')->name('leadershipteam');
 Route::get('/about/board-of-directors', 'HomeController@boardofdirectors')->name('boardofdirectors');
 Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 Route::get('/early-years', 'HomeController@earlyYears')->name('earlyYears');

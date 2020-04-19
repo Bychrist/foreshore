@@ -71,5 +71,12 @@ class HomeController extends Controller
     
 
 
+     public function leadershipteam()
+    {
+        return view('leadershipteam');
+    
+    }
+
+
     
 }
