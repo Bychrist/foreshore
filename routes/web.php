@@ -20,3 +20,4 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about/who-we-are', 'HomeController@whoweare')->name('whoweare');
+Route::get('/about/board-of-directors', 'HomeController@boardofdirectors')->name('boardofdirectors');

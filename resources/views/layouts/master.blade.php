@@ -42,7 +42,7 @@
 	            	<!--Top Left-->
 	            	<div class="top-left pull-left">
 	                	<ul class="links-nav clearfix">
-	                    	<li><span class="icon fa fa-envelope-o"></span><a >Info@Kindergarten.com</a></li>
+	                    	<li><span class="icon fa fa-envelope-o"></span><a >info@theforeshoreschool.com</a></li>
 	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
 	                    </ul>
 	                </div>
@@ -77,11 +77,11 @@
 	                            <!--Left Nav-->
 	                            <ul class="navigation left-nav clearfix">
 
-	                                <li><a href="">Home</a></li>
+	                                <li><a href="{{action('HomeController@index')}}">Home</a></li>
 	                                <li class="current dropdown"><a href="#">About Us</a>
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
-	                                        <li><a href="">Board of Directors</a></li>
+	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
 	                                        <li><a href="">Leadership Team</a></li>
 	                                        <li><a href="">Facilities</a></li>
 	                                        <li><a href="">Gallery</a></li>
@@ -144,11 +144,11 @@
 	                        
 	                        <div class="navbar-collapse collapse clearfix">
 	                            <ul class="navigation clearfix">
-	                                <li class="{{Request::is('/') ? 'current' : ''}} dropdown"><a href="/">Home</a> </li>
+	                                <li class="{{Request::is('/') ? 'current' : ''}}"><a href="{{action('HomeController@index')}}">Home</a> </li>
 	                                <li class="{{Request::is('about/*') ? 'current' : ''}} dropdown"><a href="#">About Us</a>
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
-	                                        <li><a href="">Board of Directors</a></li>
+	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
 	                                        <li><a href="">Leadership Team</a></li>
 	                                        <li><a href="">Facilities</a></li>
 	                                        <li><a href="">Gallery</a></li>

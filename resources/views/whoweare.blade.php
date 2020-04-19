@@ -9,7 +9,7 @@
                    <h1>about us</h1>
                    <ul class="bread-crumb">
                    	<li><a href="{{action('HomeController@index')}}">Home</a></li>
-                       <li>About</li>
+                       <li>Who We Are</li>
                    </ul>
                </div>
            </div>
