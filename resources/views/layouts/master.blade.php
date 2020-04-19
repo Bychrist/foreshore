@@ -150,8 +150,6 @@ info@tfsikoyi.com
 	                        <div class="navbar-collapse collapse clearfix">
 	                            <ul class="navigation clearfix">
 
-	                                <li class="{{Request::is('/') ? 'current' : ''}} "><a href="/">Home</a> </li>
-
 	                                <li class="{{Request::is('/') ? 'current' : ''}}"><a href="{{action('HomeController@index')}}">Home</a> </li>
 
 
