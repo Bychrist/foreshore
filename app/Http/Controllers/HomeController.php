@@ -53,6 +53,13 @@ class HomeController extends Controller
  
     }
 
+    public function schoolFacility()
+    {
+        return view('schoolFacility');
+    }
+
+    
+
 
      public function leadershipteam()
     {
