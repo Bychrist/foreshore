@@ -63,6 +63,11 @@ class HomeController extends Controller
         return view('gallery');
     }
 
+    public function earlyYears()
+    {
+        return view('earlyYears');
+    }
+
     
 
 

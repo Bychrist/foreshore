@@ -216,10 +216,10 @@ info@tfsikoyi.com
 										<div class="widget-content">
 	                                    	<div class="text">We are a British Curriculum crèche, preschool, nursery and primary school located in Ikoyi, Lagos...</div>
 	                                        <ul class="social-links-two">
-	                                        	<li class="facebook"><a href="#"><span class="fa fa-facebook"></span></a></li>
-	                                            <li class="twitter"><a href="#"><span class="fa fa-twitter"></span></a></li>
-	                                            <li class="google-plus"><a href="#"><span class="fa fa-google-plus"></span></a></li>
-	                                            <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+	                                        	<li class="facebook"><a href="https://www.facebook.com/theforeshoreschoolikoyi/"><span class="fa fa-facebook"></span></a></li>
+	                                            <li class="twitter"><a href="https://twitter.com/tfsikoyi"><span class="fa fa-twitter"></span></a></li>
+	                                            <li class="instagram"><a href="https://instagram.com/tfsikoyi"><span class="fa fa-instagram"></span></a></li>
+	                                            {{-- <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li> --}}
 	                                        </ul>
 										</div>
 									</div>

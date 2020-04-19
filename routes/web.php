@@ -27,3 +27,4 @@ Route::get('/facility/school-facility', 'HomeController@schoolFacility')->name('
 Route::get('/parents-portal', 'HomeController@parentsPortal')->name('portal');
 Route::get('/about/board-of-directors', 'HomeController@boardofdirectors')->name('boardofdirectors');
 Route::get('/gallery', 'HomeController@gallery')->name('gallery');
+Route::get('/early-years', 'HomeController@earlyYears')->name('earlyYears');
