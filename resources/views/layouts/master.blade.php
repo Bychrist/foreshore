@@ -43,10 +43,8 @@
 	            	<div class="top-left pull-left">
 	                	<ul class="links-nav clearfix">
 
-	                    	<li><span class="icon fa fa-envelope-o"></span><a >
-info@tfsikoyi.com
-</a></li>
-                	<li><span class="icon fa fa-envelope-o"></span><a >info@theforeshoreschool
+	                    	<li><span class="icon fa fa-envelope-o"></span><a >info@tfsikoyi.com</a></li>
+                
 	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
 	                    </ul>
 	                </div>
@@ -87,7 +85,7 @@ info@tfsikoyi.com
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
 	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
-	                                        <li><a href="">Leadership Team</a></li>
+	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
 	                                        <li><a href="">Facilities</a></li>
 	                                        <li><a href="">Gallery</a></li>
 	                                        
@@ -150,7 +148,7 @@ info@tfsikoyi.com
 	                        <div class="navbar-collapse collapse clearfix">
 	                            <ul class="navigation clearfix">
 
-	                                <li class="{{Request::is('/') ? 'current' : ''}} "><a href="/">Home</a> </li>
+	                             
 
 	                                <li class="{{Request::is('/') ? 'current' : ''}}"><a href="{{action('HomeController@index')}}">Home</a> </li>
 
@@ -159,7 +157,7 @@ info@tfsikoyi.com
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
 	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
-	                                        <li><a href="">Leadership Team</a></li>
+	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
 	                                        <li><a href="">Facilities</a></li>
 	                                        <li><a href="">Gallery</a></li>
 	                                    </ul>
