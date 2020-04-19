@@ -58,6 +58,11 @@ class HomeController extends Controller
         return view('schoolFacility');
     }
 
+    public function gallery()
+    {
+        return view('gallery');
+    }
+
     
 
 

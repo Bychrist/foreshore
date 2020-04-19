@@ -46,7 +46,6 @@
 	                    	<li><span class="icon fa fa-envelope-o"></span><a >
 info@tfsikoyi.com
 </a></li>
-                	<li><span class="icon fa fa-envelope-o"></span><a >info@theforeshoreschool
 	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
 	                    </ul>
 	                </div>

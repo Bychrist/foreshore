@@ -45,38 +45,37 @@
                 <div class="teacher-block col-md-3 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image-box" >
-                            <img src="{{asset('images/resource/Oladapo.jpg')}}" alt="" />
-                           </div>
-                           <h3>Mr. <br> Oladapo Egbeyemi</h3>
-                           <div class="designation">Chairman</div>
-                           <div class="text">
-                              
+                              <img src="{{asset('images/resource/Adesola.jpg')}}" alt="" />
+                             </div>
+                             <h3>Mr.<br>Adesola  Adepetun  </h3>
+                             <div class="designation">Chairman</div>
+                             <div class="text">
+                                
 
-                              <div class="scroll-bar-wrap">
-                                <div class="scroll-box">
-                                  <p>
-                                    Mr. Oladapo Egbeyemi holds a Bachelor’s degree in accounting (1985) from the University of Lagos. He has vast experience in the finance industry, having worked at institutions such as the Nigeria International Bank – NIB (now Citi bank), Chartered Bank Nigeria Plc. and Commercial Trust Bank Limited.
-                                  </p>
-                                  <p>
-                                    After working in the finance industry for about 10 years, he founded Worthwhile Ventures Limited (Locks & Switches) in 1994 and Bathrooms & Beyond in 2008.
-                                  </p>
-                                  <p>
-                                    Mr. Egbeyemi served on the Board of Cornerstone Insurance Plc as a non-Executive Director 2004 to 2016 and was the Chairman of Cap Phoenix Cornerstone Limited from 2015 to 2016. He is currently the Chairman of the Ogun State Mineral Resources and Environmental Management Committee (MIREMCO) and a non-Executive Director on the Board of Troloppe Property Services Limited.
-                                  </p>
-                                  <p>
-                                    Mr. Egbeyemi is an alumnus of the prestigious Lagos Business School (Owner-Manager Programme “OMP 1”). He is also an Executive Committee and Governing Council member of the Lagos state Business School Alumni Association.
-                                  </p>
-                               
+                                <div class="scroll-bar-wrap">
+                                  <div class="scroll-box">
+                                    <p>
+                                       Mr. Adesola Olajide Adepetun is a graduate of the University of Lagos and has an LLM from the University of London: London School of Economics and Political Science (LSE). He is an Associate Director of the African Institute of Petroleum and a member of both the Nigerian Bar Association and the International Bar Association Section on Energy & Natural Resources Law.
+                                    </p>
+                                    <p>
+                                       Mr. Adesola Adepetun, a legal practitioner by profession, is a named partner in the prestigious law firm, Adepetun, Caxton Martins, Agbor & Segun. He has 30 years’ experience in provision of advisory services to many international companies on foreign investment laws, corporate establishment and accreditation issues, the Nigerian licensing regime and general strategic alliances in the Nigerian oil & gas industry.
+                                    </p>
+                                    <p>
+                                      Mr. Adesola Adepetun was appointed to the Board of Directors of Standard Chartered Bank Nigeria Limited in April, 2014 as an Independent Non-Executive Director. He has also been awarded a number of accolades in various international directories including Chambers Global (2002-2005, 2007-2008, 2010-2012) and Euromoney (2007).
+                                    </p>
+                                
+                                  </div>
+                                  <div class="cover-bar"></div>
                                 </div>
-                                <div class="cover-bar"></div>
-                              </div>
-                           
+                             
 
-                          </div>
+                            </div>
 
-                               
-                       </div>
+                                 
+                         </div>
                    </div>
+
+                   
                    
                    <!--Teacher Block-->
                
@@ -230,34 +229,36 @@
                   <div class="teacher-block col-md-3 col-sm-6 col-xs-12">
                       <div class="inner-box">
                           <div class="image-box" >
-                              <img src="{{asset('images/resource/Adesola.jpg')}}" alt="" />
-                             </div>
-                             <h3>Mr.<br>Adesola  Adepetun  </h3>
-                             <div class="designation">Director</div>
-                             <div class="text">
-                                
+                            <img src="{{asset('images/resource/Oladapo.jpg')}}" alt="" />
+                           </div>
+                           <h3>Mr. <br> Oladapo Egbeyemi</h3>
+                           <div class="designation">Director</div>
+                           <div class="text">
+                              
 
-                                <div class="scroll-bar-wrap">
-                                  <div class="scroll-box">
-                                    <p>
-                                       Mr. Adesola Olajide Adepetun is a graduate of the University of Lagos and has an LLM from the University of London: London School of Economics and Political Science (LSE). He is an Associate Director of the African Institute of Petroleum and a member of both the Nigerian Bar Association and the International Bar Association Section on Energy & Natural Resources Law.
-                                    </p>
-                                    <p>
-                                       Mr. Adesola Adepetun, a legal practitioner by profession, is a named partner in the prestigious law firm, Adepetun, Caxton Martins, Agbor & Segun. He has 30 years’ experience in provision of advisory services to many international companies on foreign investment laws, corporate establishment and accreditation issues, the Nigerian licensing regime and general strategic alliances in the Nigerian oil & gas industry.
-                                    </p>
-                                    <p>
-                                      Mr. Adesola Adepetun was appointed to the Board of Directors of Standard Chartered Bank Nigeria Limited in April, 2014 as an Independent Non-Executive Director. He has also been awarded a number of accolades in various international directories including Chambers Global (2002-2005, 2007-2008, 2010-2012) and Euromoney (2007).
-                                    </p>
-                                
-                                  </div>
-                                  <div class="cover-bar"></div>
+                              <div class="scroll-bar-wrap">
+                                <div class="scroll-box">
+                                  <p>
+                                    Mr. Oladapo Egbeyemi holds a Bachelor’s degree in accounting (1985) from the University of Lagos. He has vast experience in the finance industry, having worked at institutions such as the Nigeria International Bank – NIB (now Citi bank), Chartered Bank Nigeria Plc. and Commercial Trust Bank Limited.
+                                  </p>
+                                  <p>
+                                    After working in the finance industry for about 10 years, he founded Worthwhile Ventures Limited (Locks & Switches) in 1994 and Bathrooms & Beyond in 2008.
+                                  </p>
+                                  <p>
+                                    Mr. Egbeyemi served on the Board of Cornerstone Insurance Plc as a non-Executive Director 2004 to 2016 and was the Chairman of Cap Phoenix Cornerstone Limited from 2015 to 2016. He is currently the Chairman of the Ogun State Mineral Resources and Environmental Management Committee (MIREMCO) and a non-Executive Director on the Board of Troloppe Property Services Limited.
+                                  </p>
+                                  <p>
+                                    Mr. Egbeyemi is an alumnus of the prestigious Lagos Business School (Owner-Manager Programme “OMP 1”). He is also an Executive Committee and Governing Council member of the Lagos state Business School Alumni Association.
+                                  </p>
+                               
                                 </div>
-                             
+                                <div class="cover-bar"></div>
+                              </div>
+                           
 
-                            </div>
-
-                                 
-                         </div>
+                          </div>
+      
+                       </div>
                      </div>
                   
                   
