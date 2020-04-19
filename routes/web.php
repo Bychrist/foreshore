@@ -22,4 +22,5 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about/who-we-are', 'HomeController@whoweare')->name('whoweare');
 Route::get('/virtual', 'HomeController@virtual')->name('virtual');
 Route::get('/facility/development', 'HomeController@facilityDevelopment')->name('development');
+Route::get('/facility/school-facility', 'HomeController@schoolFacility')->name('facility');
 Route::get('/parents-portal', 'HomeController@parentsPortal')->name('portal');
