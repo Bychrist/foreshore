@@ -83,8 +83,6 @@ info@tfsikoyi.com
 
 	                                <li><a href="{{url('/')}}">Home</a></li>
 
-	                                <li><a href="{{action('HomeController@index')}}">Home</a></li>
-
 	                                <li class="current dropdown"><a href="#">About Us</a>
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
