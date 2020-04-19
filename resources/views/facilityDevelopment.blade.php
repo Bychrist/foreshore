@@ -56,10 +56,10 @@
 			</table>
 		</div>
 		<div style="width: 100%" data-aos="zoom-out">
-				<img src="{{asset('images/TFS Facility1.png')}}" width="50%" style="float: left; position: relative; padding: 5px">
-				<img src="{{asset('images/TFS Facility2.png')}}" width="50%" style="float: left; position: relative; padding: 5px">
-				<img src="{{asset('images/TFS Facility3.png')}}" width="50%" style="float: left; position: relative; padding: 5px">
-				<img src="{{asset('images/TFS Facility5.png')}}" width="50%" style="float: left; position: relative; padding: 5px">
+				<img src="{{asset('images/TFS Facility1.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
+				<img src="{{asset('images/TFS Facility2.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
+				<img src="{{asset('images/TFS Facility3.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
+				<img src="{{asset('images/TFS Facility5.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
 			</div>
 			</center>
 		</div>

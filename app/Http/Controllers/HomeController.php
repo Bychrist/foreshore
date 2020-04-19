@@ -41,6 +41,11 @@ class HomeController extends Controller
         return view('facilityDevelopment');
     }
 
+    public function parentsPortal()
+    {
+        return view('parentsPortal');
+    }
+
 
     
 }

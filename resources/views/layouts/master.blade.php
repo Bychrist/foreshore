@@ -111,7 +111,7 @@ info@tfsikoyi.com
 	                                       
 	                                      </ul>
 	                                  </li>
-	                                  <li ><a href="">Parents' Portal</a></li>
+									<li ><a href="{{url('/parents-portal')}}">Parents' Portal</a></li>
 	                                  <li><a href="">Contact Us</a></li>
                                 </ul>
 	                        </div>
@@ -172,7 +172,7 @@ info@tfsikoyi.com
 	                                        <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li><a href="">Parent's Portal</a></li>
+	                                <li><a href="{{url('/parents-portal')}}">Parent's Portal</a></li>
 	                                <li><a href="">Contact Us</a></li>
 	                            </ul>
 	                        </div>
