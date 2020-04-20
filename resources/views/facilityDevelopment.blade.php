@@ -16,60 +16,245 @@
        </section>
        <!--End Page Title-->
 
-  	
-<div style="width: 100%; padding-bottom: 500px; margin-top: -100px; padding-left: 50px; padding-right: 50px">
-	<center>
-		<div style="width: 80%; padding-top: 100px; text-align:left">
-		<p style="padding-top: 100px"><h3>Wellness has become a critical aspect of universal culture.</h3></p>
-		<p><h4>Physical activity helps improve health and reduce the risk of many diseases such as cancer, heart disease and type-2 diabetes, which are becoming increasingly common these days. The state of the mind is very important towards the thought mechanism that drives our physical body experiences. The mind works with the brain and the soul, and as such determines how the body responds. This feeds directly into wellness, being in a good state of health, which drives us to become happier and more effective people individually and as a community.</h4></p>
-		<center>
-		<div style="width: 80%" data-aos="zoom-out">
-		</div>
-		</center>
-		<p><h4>The Foreshore School recognises this as critical, and in line with our vision to help children stand out amongst their peers globally and surpass expectations, it has become imperative to provide a physical facility that would help enhance all that the school does to develop the total child. Looking beyond this, we seek to reach out to the community and encourage a lifestyle that holds wellness as paramount.</h4></p>
-		<p><h4>As part of our continued growth strategy and to meet local market demands and international standards, TFS desires to expand its facility to accommodate more up to date infrastructure including a modern sports facility.</h4></p>
-		<br>
-		<p><h3>The proposed sports facility includes the following key features:</h3></p>
-		<center>
-		<div style="width: 100%" data-aos="zoom-out">
-			<table style="border: 1px solid black; width: 100%">
-				<tr>
-					<th style="border: 1px solid black; text-align: center;">Feature</th>
-					<th style="border: 1px solid black; text-align: center;">Dimensions</th>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; text-align: center;">4 – Lane Standard Junior Olympics Swimming Pool </td>
-					<td style="border: 1px solid black; text-align: center;">Length – 25m Breadth – 8.5m</td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; text-align: center;">Multigame Court (basketball, netball, lawn tennis, badminton, etc.)</td>
-					<td style="border: 1px solid black; text-align: center;">Length – 22.5m Breadth – 13m</td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; text-align: center;">Standard Junior Football and Athletics Field</td>
-					<td style="border: 1px solid black; text-align: center;">Length – 36m Breadth – 18m</td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; text-align: center;">Modern Children's Play Area</td>
-					<td style="border: 1px solid black; text-align: center;">Length – 10m Breadth – 9m</td>
-				</tr>
-			</table>
-		</div>
-		<div style="width: 100%" data-aos="zoom-out">
-				<img src="{{asset('images/TFS Facility1.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
-				<img src="{{asset('images/TFS Facility2.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
-				<img src="{{asset('images/TFS Facility3.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
-				<img src="{{asset('images/TFS Facility5.png')}}" width="50%" height="50%" style="float: left; position: relative; padding: 5px">
-			</div>
-			</center>
-		</div>
-	</center>
-</div>
+
+
+
+       	   <!--Welcome Section-->
+       	   <section class="welcome-section" style="margin-bottom: -200px">
+       	   	<div class="auto-container">
+       	       	<!--Sec Title-->
+       	           <div class="sec-title centered">
+       	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
+       	           	<h2>Facility Development</h2>
+                     <div class="title">Wellness has become a critical aspect of universal culture.</div>
+
+                     <div class="text">Physical activity helps improve health and reduce the risk of many diseases such as cancer, heart disease and type-2 diabetes, which are becoming increasingly common these days. The state of the mind is very important towards the thought mechanism that drives our physical body experiences. The mind works with the brain and the soul, and as such determines how the body responds. This feeds directly into wellness, being in a good state of health, which drives us to become happier and more effective people individually and as a community.</div>
+
+                     <div class="text">
+                     	The Foreshore School recognises this as critical, and in line with our vision to help children stand out amongst their peers globally and surpass expectations, it has become imperative to provide a physical facility that would help enhance all that the school does to develop the total child. Looking beyond this, we seek to reach out to the community and encourage a lifestyle that holds wellness as paramount.</h4></p>
+                     			<p><h4>As part of our continued growth strategy and to meet local market demands and international standards, TFS desires to expand its facility to accommodate more up to date infrastructure including a modern sports facility.
+                     </div>
+       	             
+       	            
+       	           </div>
+       	        
+       	       </div>
+       	   </section>
+
+
+
+   	   	   <!--Welcome Section-->
+   	   	   <section class="welcome-section" style="margin-bottom: -300px;margin-top:-250px">
+   	   	   	<div class="auto-container">
+   	   	       	<!--Sec Title-->
+   	   	           <div class="sec-title centered">
+   	   	             <img src="{{asset('images/resource/teachersjump.png')}}" alt="" />
+   	   	      
+
+   	   	            </div>
+   	   	        
+   	   	       </div>
+   	   	   </section>
+
+
+   	   <!--End Welcome Section-->
 			
 
 
 
 
+		   <!--Welcome Section-->
+		   <section class="welcome-section" style="margin-bottom: 200px">
+		   		<div class="auto-container">
+		       	<!--Sec Title-->
+		           <div class="sec-title centered">
+		           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
+		           	<h2>The proposed sports facility</h2>
+	                <div class="title">includes the following key features</div>
+
+	             
+		           </div>
+
+		           <div class="col-md-2">
+		           	 &nbsp;
+		           </div>
+
+		           <div class="teacher-block  col-md-8  col-sm-12 col-xs-12">
+		               <div class="inner-box">
+		                   
+							<table class="table table-striped">
+							  <thead style="background-color: #840c00;color:#ffffff">
+							    <tr>
+							      <th scope="col">#</th>
+							      <th scope="col">Feature</th>
+							      <th scope="col">Dimensions</th>
+							   
+							    </tr>
+							  </thead>
+							  <tbody style="text-align: left">
+							    <tr>
+							      <th scope="row">1</th>
+							      <td>4 – Lane Standard Junior Olympics Swimming Pool</td>
+							      <td>Length: 25m &nbsp; | &nbsp; Breadth: 8.5m</td>
+							   
+							    </tr>
+							    <tr>
+							      <th scope="row">2</th>
+							      <td>Multigame Court (basketball, netball, lawn tennis, etc.)</td>
+							      <td>Length: 22.5m &nbsp; | &nbsp;  Breadth: 13m</td>
+							    
+							    </tr>
+							    <tr>
+							      <th scope="row">3</th>
+							      <td>Standard Junior Football and Athletics Field</td>
+							      <td>Length: 36m  &nbsp; | &nbsp; Breadth: 18m</td>
+							
+							    </tr>
+
+
+							    <tr>
+							      <th scope="row">3</th>
+							      <td>Modern Children's Play Area</td>
+							      <td>Length: 10m   &nbsp; | &nbsp; Breadth: 9m</td>
+							    
+							    </tr>
+							  </tbody>
+							</table>
+		                          
+		                </div>
+		            </div>
+		        
+		        </div>
+		   </section>
+
+
+			
+
+
+		   <!--Welcome Section-->
+		   <section class="welcome-section" >
+		   		<div class="auto-container">
+		       	<!--Sec Title-->
+		           <div class="row sec-title centered">
+		           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
+		           	<h2>3D Architectural View</h2>
+	                <div class="title">includes the following key features</div>
+
+	             
+		           </div>
+		       </div>
+		   </section>
+
+
+		
+			<section class="classes-section" style="margin-top: -220px;margin-bottom: -300px">
+		    	<div class="auto-container">
+		        
+		        	
+		            
+		        	<div class="row clearfix">
+		            	
+		                <!--News Style Two-->
+		                <div class="news-style-two col-md-6 col-sm-6 col-xs-12">
+		                	<div class="inner-box">
+		                    	<!--Image Column-->
+		                        <div class="image-column">
+		                            <div class="image">
+		                                <a href="classes-single.html"><img src="{{asset('images/TFS-Facility1.png')}}" alt="" /></a>
+		                                <span class="category">Football and Athletics Field</span>
+		                                <div class="overlay-layer">
+		                                	<a><span class="icon flaticon-unlink"></span></a>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <!--Content Column-->
+		                        <div class="content-column">
+		                            <div class="inner">
+		                                <div class="post-date">Football and Athletics Field</div>
+		                                <h3><a href="classes-single.html">Standard Junior Football and Athletics Field	</a></h3>
+		                               
+		                              
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+
+						<div class="news-style-two col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+						    	<!--Image Column-->
+						        <div class="image-column">
+						            <div class="image">
+						                <a href="classes-single.html"><img src="{{asset('images/poolplay.png')}}" alt="" /></a>
+						                <span class="category">Olympic Swimming Pool</span>
+						                <div class="overlay-layer">
+						                	<a><span class="icon flaticon-unlink"></span></a>
+						                </div>
+						            </div>
+						        </div>
+						        <!--Content Column-->
+						        <div class="content-column">
+						            <div class="inner">
+						                <div class="post-date">Swimming Pool and Play Ground</div>
+						                <h3><a href="classes-single.html">	4 – Lane Standard Junior Olympics Swimming Pool	</a></h3>
+						               
+						              
+						            </div>
+						        </div>
+						    </div>
+						</div>
+
+
+						<div class="news-style-two col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+						    	<!--Image Column-->
+						        <div class="image-column">
+						            <div class="image">
+						                <a href="classes-single.html"><img src="{{asset('images/bleachers.png')}}" alt="" /></a>
+						                <span class="category">Bleacher 2 Blow Up</span>
+						                <div class="overlay-layer">
+						                	<a><span class="icon flaticon-unlink"></span></a>
+						                </div>
+						            </div>
+						        </div>
+						        <!--Content Column-->
+						        <div class="content-column">
+						            <div class="inner">
+						                <div class="post-date">Football Field</div>
+						                <h3><a href="classes-single.html">Fans Stand Area</a></h3>
+						               
+						              
+						            </div>
+						        </div>
+						    </div>
+						</div>
+
+
+						<div class="news-style-two col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+						    	<!--Image Column-->
+						        <div class="image-column">
+						            <div class="image">
+						                <a href="classes-single.html"><img src="{{asset('images/verticalview.png')}}" alt="" /></a>
+						                <span class="category">Football and Athletics</span>
+						                <div class="overlay-layer">
+						                	<a><span class="icon flaticon-unlink"></span></a>
+						                </div>
+						            </div>
+						        </div>
+						        <!--Content Column-->
+						        <div class="content-column">
+						            <div class="inner">
+						                <div class="post-date"> Football and Athletics Field</div>
+						                <h3><a href="classes-single.html">Vertical View  of 	Football and Athletic Field	</a></h3>
+						               
+						              
+						            </div>
+						        </div>
+						    </div>
+						</div>
+		            </div>
+		           </div>
+		       </section>
 
 
   	    <!--Teachers Section-->
