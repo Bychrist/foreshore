@@ -93,7 +93,7 @@ input[type=submit]:hover {
 	        	<div class="auto-container">
 	                	
 	                <div class="logo-outer" >
-	                    <div class="logo" ><a href=""><img src="{{asset('images/logo.png')}}" alt="" title=""></a></div>
+					<div class="logo" ><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" title=""></a></div>
 	                </div>
 	                    
 	                <div class="nav-outer clearfix">
