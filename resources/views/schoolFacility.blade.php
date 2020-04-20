@@ -16,467 +16,525 @@
        </section>
        <!--End Page Title-->
 
-  	
-<div style="width: 100%; padding-bottom: 100px; padding-left: 50px; padding-right: 50px">
-	<center>
-		<div style="width: 80%; padding-top: 100px; text-align:left">
-						<div style="padding-top: 100px">		
-					<div>
-					<h2>Our purpose-built facility includes the following features:</h2>
-					<hr>
-					<h3>Bright, colourful and stimulating classrooms</h3>
-					<hr>
-					<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-                <!-- start single gallery image -->
-                {{-- <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Classroom8.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>	 --}}
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Classroom5.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Classroom4.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Classroom2.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-				<hr>
-				<h3>Crèche</h3>
-				<hr>
-				<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-                	
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/TFS_Creche-copy.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Science laboratory</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/ScienceLab1-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/ScienceLab2-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Library</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Library-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Music Room</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Music1-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Music3.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Sick Bay</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/SickBay.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Art Room</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/ArtRoom1-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Indoor Play Area</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/IndoorPlayArea.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Outdoor Play Area</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Playground_Field2.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Playground1.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Swimming Pool</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/SwimmingPool1-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/SwimmingPool3-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/SwimmingPool2-min.JPG')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Football Field</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Football2.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Football.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Football4.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Basketball Court</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/Playground_BasketballCourt.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Multipurpose Hall</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/MultipurposeHall2.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/MultipurposeHall3.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/MultipurposeHall4.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Closed-Circuit Television (CCTV)</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/CCTVControlRoom-min.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>ICT Room</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/ICTRoom-min.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/ICTRoom2.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
-						<hr>
-						<h3>Dining Room</h3>
-						<hr>
-						<div class="mu-gallery-area" data-aos="zoom-out">
-						<div class="mu-gallery-content">
-						<div class="mu-gallery-body">
-						<ul id="mixit-container" class="row">
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/DiningRoom1.jpeg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img src="{{asset('images/facilities/DinningRoom2.jpg')}}" width="100%" alt="img"></a>
-						</div>
-						</div>
-						</div>
-                        </li>
-						</ul>
-						</div>
-						</div>
-						</div>
+
+
+
+       	   <!--Welcome Section-->
+       	   <section class="welcome-section" style="margin-bottom: -200px">
+       	   	<div class="auto-container">
+       	       	<!--Sec Title-->
+       	           <div class="sec-title centered">
+       	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
+       	           	<h2>School Facilities</h2>
+                     <div class="title">Foreshore School Facilities</div>
+       	             
+       	            
+       	           </div>
+       	        
+       	       </div>
+       	   </section>
+       	   <!--End Welcome Section-->
+
+
+
+
+		<section class="classes-section" style="margin-bottom: -300px">
+	    	<div class="auto-container">
+	        
+	        	
+	            
+	        	<div class="row clearfix">
+	            	
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/Classroom5.jpeg')}}" alt="" /></a>
+	                                <span class="category">Class</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Primary Classroom</div>
+	                                <h3><a href="classes-single.html">Bright & Colouful</a></h3>
+	                                <div class="text">Bright, colourful and stimulating classrooms</div>
+	                              
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/Classroom4.jpeg')}}" alt="" /></a>
+	                                <span class="category">Class</span>
+	                                <div class="overlay-layer">
+	                                	<a href=""><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Primary Classroom</div>
+	                                <h3><a href="classes-single.html">Bright & Colouful</a></h3>
+	                                <div class="text">Bright, colourful and stimulating classrooms</div>
+	                            
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/Classroom2.jpeg')}}" alt="" /></a>
+	                                <span class="category">stories</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Nursery Classroom</div>
+	                                <h3><a>Story Class</a></h3>
+	                                <div class="text">Building reading habits in Children</div>
+	                                
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/ScienceLab1-min.JPG')}}" alt="" /></a>
+	                                <span class="category">science</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Science Laboratory</div>
+	                                <h3><a>Science Lab</a></h3>
+	                                <div class="text">Well furnished modern science laboratory</div>
+	                              
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/ScienceLab2-min.JPG')}}" alt="" /></a>
+	                                <span class="category">Science</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Science Laboratory</div>
+	                                <h3><a>Science Lab</a></h3>
+	                                <div class="text">Well furnished modern science laboratory</div>
+	                               
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/ArtRoom1-min.JPG')}}" alt="" /></a>
+	                                <span class="category">Art</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Art Room</div>
+	                                <h3><a></a>Art & Craft</h3>
+	                                <div class="text">Art and Craft skill acquisition</div>
+	                                
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a href="classes-single.html"><img src="{{asset('images/facilities/TFS_Creche-copy.jpg')}}" alt="" /></a>
+	                                <span class="category">Comfort</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Creche Rest Beds</div>
+	                                <h3><a href="classes-single.html">Creche Comfort Room</a></h3>
+	                                <div class="text">Creche pupils rest as if they are home</div>
+	                                
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a><img style="height: 250px" src="{{asset('images/facilities/Playground_Field2.jpg')}}" alt="" /></a>
+	                                <span class="category">sports</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Outdoor Play Area</div>
+	                                <h3><a >Play, Sports & Exercise</a></h3>
+	                                <div class="text">Play group and sport is part of the school activities</div>
+	                                
+
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                <!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                                <a><img src="{{asset('images/facilities/Music1-min.JPG')}}" alt="" /></a>
+	                                <span class="category">Music</span>
+	                                <div class="overlay-layer">
+	                                	<a><span class="icon flaticon-unlink"></span></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!--Content Column-->
+	                        <div class="content-column">
+	                            <div class="inner">
+	                                <div class="post-date">Music & Dance</div>
+	                                <h3><a> Music Room</a></h3>
+	                                <div class="text">Music and dance</div>
+	                              
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+
+
+	              
+	                
+	            </div>
+
+
+
+	            <div class="row clearfix">	
+
+					<!--News Style Two-->
+					<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+						<div class="inner-box">
+					    	<!--Image Column-->
+					        <div class="image-column">
+					            <div class="image">
+					                <a><img style="height: 250px" src="{{asset('images/facilities/MultipurposeHall3.jpeg')}}" alt="" /></a>
+					                <span class="category">Hall</span>
+					                <div class="overlay-layer">
+					                	<a><span class="icon flaticon-unlink"></span></a>
+					                </div>
+					            </div>
+					        </div>
+					        <!--Content Column-->
+					        <div class="content-column">
+					            <div class="inner">
+					                <div class="post-date">Multipurpose Hall</div>
+					                <h3><a> Hall</a></h3>
+					                <div class="text">Ultra modern multipurpose hall for conferences</div>
+					              
+					            </div>
+					        </div>
+					    </div>
 					</div>
+
+
+
+					<!--News Style Two-->
+					<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+						<div class="inner-box">
+					    	<!--Image Column-->
+					        <div class="image-column">
+					            <div class="image">
+					                <a><img style="height: 250px" src="{{asset('images/facilities/Library-min.JPG')}}" alt="" /></a>
+					                <span class="category">Books</span>
+					                <div class="overlay-layer">
+					                	<a><span class="icon flaticon-unlink"></span></a>
+					                </div>
+					            </div>
+					        </div>
+					        <!--Content Column-->
+					        <div class="content-column">
+					            <div class="inner">
+					                <div class="post-date">Library</div>
+					                <h3><a> Library</a></h3>
+					                <div class="text">Well furnished library</div>
+					              
+					            </div>
+					        </div>
+					    </div>
 					</div>
+
+
+					<!--News Style Two-->
+					<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+						<div class="inner-box">
+					    	<!--Image Column-->
+					        <div class="image-column">
+					            <div class="image">
+					                <a><img style="height: 250px" src="{{asset('images/facilities/SwimmingPool1-min.JPG')}}" alt="" /></a>
+					                <span class="category">Sports</span>
+					                <div class="overlay-layer">
+					                	<a><span class="icon flaticon-unlink"></span></a>
+					                </div>
+					            </div>
+					        </div>
+					        <!--Content Column-->
+					        <div class="content-column">
+					            <div class="inner">
+					                <div class="post-date">Swimming Pool</div>
+					                <h3><a> Swimming</a></h3>
+					                <div class="text">Swimming pool with swimming intructors</div>
+					              
+					            </div>
+					        </div>
+					    </div>
 					</div>
-				</center>
-			</div>
-			
+
+
+
+					
+
+	            </div>
+
+
+
+	            <div class="row clearfix">
+	            	<!--News Style Two-->
+					<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+						<div class="inner-box">
+					    	<!--Image Column-->
+					        <div class="image-column">
+					            <div class="image">
+					                <a><img style="height: 250px" src="{{asset('images/facilities/Football2.jpeg')}}" alt="" /></a>
+					                <span class="category">Sports</span>
+					                <div class="overlay-layer">
+					                	<a><span class="icon flaticon-unlink"></span></a>
+					                </div>
+					            </div>
+					        </div>
+					        <!--Content Column-->
+					        <div class="content-column">
+					            <div class="inner">
+					                <div class="post-date">Football Field</div>
+					                <h3><a> Football Field</a></h3>
+					                <div class="text">Football training session</div>
+					              
+					            </div>
+					        </div>
+					    </div>
+					</div>
+
+
+
+					<!--News Style Two-->
+					<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+						<div class="inner-box">
+					    	<!--Image Column-->
+					        <div class="image-column">
+					            <div class="image">
+					                <a><img style="height: 250px" src="{{asset('images/facilities/Playground_BasketballCourt.jpg')}}" alt="" /></a>
+					                <span class="category">Sports</span>
+					                <div class="overlay-layer">
+					                	<a><span class="icon flaticon-unlink"></span></a>
+					                </div>
+					            </div>
+					        </div>
+					        <!--Content Column-->
+					        <div class="content-column">
+					            <div class="inner">
+					                <div class="post-date">Basketball Court</div>
+					                <h3><a> Basketball Court</a></h3>
+					                <div class="text">Basketball training facilities</div>
+					              
+					            </div>
+					        </div>
+					    </div>
+					</div>
+
+
+					<!--News Style Two-->
+					<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+						<div class="inner-box">
+					    	<!--Image Column-->
+					        <div class="image-column">
+					            <div class="image">
+					                <a><img style="height: 250px" src="{{asset('images/facilities/CCTVControlRoom-min.jpg')}}" alt="" /></a>
+					                <span class="category">Security</span>
+					                <div class="overlay-layer">
+					                	<a><span class="icon flaticon-unlink"></span></a>
+					                </div>
+					            </div>
+					        </div>
+					        <!--Content Column-->
+					        <div class="content-column">
+					            <div class="inner">
+					                <div class="post-date"> CCTV </div>
+					                <h3><a> CCTV</a></h3>
+					                <div class="text">Safety and security is paramount</div>
+					              
+					            </div>
+					        </div>
+					    </div>
+					</div>
+	            </div>
+
+                <div class="row clearfix">
+                	<!--News Style Two-->
+    				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+    					<div class="inner-box">
+    				    	<!--Image Column-->
+    				        <div class="image-column">
+    				            <div class="image">
+    				                <a><img style="height: 250px" src="{{asset('images/facilities/ICTRoom-min.jpg')}}" alt="" /></a>
+    				                <span class="category">ICT</span>
+    				                <div class="overlay-layer">
+    				                	<a><span class="icon flaticon-unlink"></span></a>
+    				                </div>
+    				            </div>
+    				        </div>
+    				        <!--Content Column-->
+    				        <div class="content-column">
+    				            <div class="inner">
+    				                <div class="post-date">Computer Lab</div>
+    				                <h3><a>Computer & ICT</a></h3>
+    				                <div class="text">Computer and ICT training</div>
+    				              
+    				            </div>
+    				        </div>
+    				    </div>
+    				</div>
+
+
+
+    				<!--News Style Two-->
+    				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+    					<div class="inner-box">
+    				    	<!--Image Column-->
+    				        <div class="image-column">
+    				            <div class="image">
+    				                <a><img style="height: 250px" src="{{asset('images/facilities/DiningRoom1.jpeg')}}" alt="" /></a>
+    				                <span class="category">Dinning</span>
+    				                <div class="overlay-layer">
+    				                	<a><span class="icon flaticon-unlink"></span></a>
+    				                </div>
+    				            </div>
+    				        </div>
+    				        <!--Content Column-->
+    				        <div class="content-column">
+    				            <div class="inner">
+    				                <div class="post-date">Dinning</div>
+    				                <h3><a>Dinning</a></h3>
+    				                <div class="text">Comfortable food dinning</div>
+    				              
+    				            </div>
+    				        </div>
+    				    </div>
+    				</div>
+
+
+    				<!--News Style Two-->
+    				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+    					<div class="inner-box">
+    				    	<!--Image Column-->
+    				        <div class="image-column">
+    				            <div class="image">
+    				                <a><img style="height: 250px" src="{{asset('images/facilities/SickBay.jpg')}}" alt="" /></a>
+    				                <span class="category">Health</span>
+    				                <div class="overlay-layer">
+    				                	<a><span class="icon flaticon-unlink"></span></a>
+    				                </div>
+    				            </div>
+    				        </div>
+    				        <!--Content Column-->
+    				        <div class="content-column">
+    				            <div class="inner">
+    				                <div class="post-date"> Sick Bay </div>
+    				                <h3><a> Health</a></h3>
+    				                <div class="text">First Aid and sick bay</div>
+    				              
+    				            </div>
+    				        </div>
+    				    </div>
+    				</div>
+                </div>
+	           
+	            
+	        </div>
+	    </section>
+
+		
+
+
+
+
 
 
 
