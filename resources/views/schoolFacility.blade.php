@@ -6,7 +6,7 @@
        <section class="page-title" style="background-image:url({{asset('images/background/5.jpg')}});">
        	<div class="auto-container">
            	<div class="inner-box">
-                   <h1>School Facility</h1>
+                   <h1>Facility</h1>
                    <ul class="bread-crumb">
                    	<li><a href="{{action('HomeController@index')}}">Home</a></li>
                        <li>School Facility</li>
@@ -25,7 +25,7 @@
        	       	<!--Sec Title-->
        	           <div class="sec-title centered">
        	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
-       	           	<h2>School Facilities</h2>
+       	           	<h2>Facility</h2>
                      <div class="title">Foreshore School Facilities</div>
        	             
        	            

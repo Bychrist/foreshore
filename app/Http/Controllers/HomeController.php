@@ -68,12 +68,35 @@ class HomeController extends Controller
         return view('earlyYears');
     }
 
-    
+    public function contact()
+    {
+        return view('contact');
+    }
 
+     public function primary()
+    {
+        return view('primary');
+    }
+
+    public function extraCurricular()
+    {
+        return view('extraCurr');
+    }
+
+    public function calendar()
+    {
+        return view('calendar');
+    }
 
      public function leadershipteam()
     {
         return view('leadershipteam');
+    
+    }
+
+     public function handbook()
+    {
+        return view('handbook');
     
     }
 

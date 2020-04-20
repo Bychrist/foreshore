@@ -23,7 +23,41 @@
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
+	<link href="{{asset('css/responsive.css')}}" rel="stylesheet">
+	<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
 </head>
 
 <body>
@@ -94,11 +128,11 @@
 	                                </li>
 	                                <li class="dropdown"><a href="#">Academics</a>
 	                                    <ul>
-	                                        <li><a href="">Early Years</a></li>
-	                                        <li><a href="">Primary School</a></li>
-	                                        <li><a href="">Extracurricular Activities</a></li>
-	                                        <li><a href="">Calender</a></li>
-	                                        <li><a href="">Parents HandBook</a></li>
+										<li><a href="{{url('/early-years')}}">Early Years</a></li>
+	                                        <li><a href="{{url('/primary')}}">Primary School</a></li>
+	                                        <li><a href="{{url('/extra-curricular')}}">Extracurricular Activities</a></li>
+										<li><a href="{{url('/calendar')}}">Calender</a></li>
+	                                        <li><a href="{{url('/handbook')}}">Parents HandBook</a></li>
 	                                    </ul>
 	                                </li>
 	                                <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
@@ -114,7 +148,7 @@
 	                                      </ul>
 	                                  </li>
 									<li ><a href="{{url('/parents-portal')}}">Parents' Portal</a></li>
-	                                  <li><a href="">Contact Us</a></li>
+									<li><a href="{{url('/contact')}}">Contact Us</a></li>
                                 </ul>
 	                        </div>
 	                    </nav>
@@ -168,11 +202,11 @@
 	                                </li>
 	                                <li class="dropdown"><a href="#">Academics</a>
 	                                    <ul>
-	                                    	<li><a href="">Early Years</a></li>
-	                                        <li><a href="">Primary School</a></li>
-	                                        <li><a href="">Extracurriculum Activities</a></li>
-	                                        <li><a href="">Calender</a></li>
-	                                        <li><a href="">Parent Handbook</a></li>
+	                                    	<li><a href="{{url('/early-years')}}">Early Years</a></li>
+										<li><a href="{{url('/primary')}}">Primary School</a></li>
+										<li><a href="{{url('/extra-curricular')}}">Extracurriculum Activities</a></li>
+	                                        <li><a href="{{url('/calendar')}}">Calender</a></li>
+	                                        <li><a href="{{url('/handbook')}}">Parent Handbook</a></li>
 	                                    </ul>
 	                                </li>
 	                                <li class="{{Request::is('/virtual') ? 'current' : ''}}"><a href="{{url('/virtual')}}">Virtual Tour</a></li>
@@ -183,7 +217,7 @@
 	                                    </ul>
 	                                </li>
 	                                <li><a href="{{url('/parents-portal')}}">Parent's Portal</a></li>
-	                                <li><a href="">Contact Us</a></li>
+	                                <li><a href="{{url('/contact')}}">Contact Us</a></li>
 	                            </ul>
 	                        </div>
 	                    </nav><!-- Main Menu End-->
@@ -243,7 +277,7 @@
 	                                            <li><a href="{{action('HomeController@whoweare')}}">About</a></li>
 	                                            <li><a href="#">Academics</a></li>
 	                                            <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
-	                                            <li><a href="#">Contact Us</a></li>
+	                                            <li><a href="{{url('/contact')}}">Contact Us</a></li>
 	                                        </ul>
 										</div>
 	                                </div>
@@ -265,10 +299,10 @@
 	                                    </div>
 	                                	<div class="widget-content">
 	                                    	<ul class="list">
-	                                            <li><a href="#">Early Years</a></li>
-	                                            <li><a href="#">Primary School</a></li>
-	                                            <li><a href="#">Calender</a></li>
-	                                            <li><a href="#">Parent Handbook</a></li>
+	                                            <li><a href="{{url('/early-years')}}">Early Years</a></li>
+	                                            <li><a href="{{url('/primary')}}">Primary School</a></li>
+	                                            <li><a href="{{url('/calendar')}}">Calender</a></li>
+	                                            <li><a href="{{url('/handbook')}}">Parent Handbook</a></li>
 	                                        </ul>
 										</div>
 	                                </div>
@@ -283,7 +317,7 @@
 	                                    </div>
 	                                    <div class="widget-content">
 	                                        <div class="newsletter-form">
-	                                            <form method="post" action="http://t.commonsupport.xyz/saratov/contact.html">
+	                                            <form method="post" action="">
 	                                                <div class="form-group">
 	                                                    <input type="text" name="name" value="" placeholder="Name *" required="">
 	                                                </div>
