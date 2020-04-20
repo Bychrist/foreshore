@@ -87,8 +87,6 @@
 	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
 
 	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
-	                                        
-	                                        <li><a href="{{url('/facility/school-facility')}}">Facilities</a></li>
 
 	                                        <li><a href="">Gallery</a></li>
 	                                        
@@ -163,9 +161,7 @@
 
 	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
 	                                        
-
-	                                       
-	                                        <li><a href="{{url('/facility/school-facility')}}">Facilities</a></li>
+	                                  	
 
 	                                        <li><a href="">Gallery</a></li>
 	                                    </ul>
@@ -180,7 +176,7 @@
 	                                    </ul>
 	                                </li>
 	                                <li class="{{Request::is('/virtual') ? 'current' : ''}}"><a href="{{url('/virtual')}}">Virtual Tour</a></li>
-	                                <li class="dropdown"><a href="">Facility</a>
+	                                <li  class="{{Request::is('facility/*') ? 'current' : ''}} dropdown"><a href="">Facility</a>
 	                                    <ul>
 										<li><a href="{{url('/facility/school-facility')}}">School Facilities</a></li>
 	                                        <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
