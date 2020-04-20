@@ -6,7 +6,7 @@
        <section class="page-title" style="background-image:url({{asset('images/background/5.jpg')}});">
        	<div class="auto-container">
            	<div class="inner-box">
-                   <h1>Facility Development</h1>
+                   <h1>Facility</h1>
                    <ul class="bread-crumb">
                    	<li><a href="{{action('HomeController@index')}}">Home</a></li>
                        <li>Facility Development</li>
@@ -14,7 +14,8 @@
                </div>
            </div>
        </section>
-       <!--End Page Title-->
+	   <!--End Page Title-->
+	   
 
   	
 <div style="width: 100%; padding-bottom: 500px; margin-top: -100px; padding-left: 50px; padding-right: 50px">

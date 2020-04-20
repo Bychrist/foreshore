@@ -29,3 +29,8 @@ Route::get('/about/leadership-team', 'HomeController@leadershipteam')->name('lea
 Route::get('/about/board-of-directors', 'HomeController@boardofdirectors')->name('boardofdirectors');
 Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 Route::get('/early-years', 'HomeController@earlyYears')->name('earlyYears');
+Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/primary', 'HomeController@primary')->name('primary');
+Route::get('/extra-curricular', 'HomeController@extraCurricular')->name('extraCurricular');
+Route::get('/calendar', 'HomeController@calendar')->name('calendar');
+Route::get('/handbook', 'HomeController@handbook')->name('handbook');

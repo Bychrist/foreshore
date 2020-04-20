@@ -16,13 +16,15 @@
        </section>
        <!--End Page Title-->
 
-  	
+  <div class="container" style="margin-top: 100px">	
 <div id="Container" style="padding-bottom:20.25%; position:relative; display:block; width: 100%">
 				<img src="{{asset('images/under-construction.png')}}" width="100%" height="100%" style="float: left; position: relative; padding: 5px">
 				
 			</div>
 		
 		</div>
+
+		
 			
 
 
