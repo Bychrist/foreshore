@@ -301,7 +301,7 @@
 
 
 										 <div class="teacher-block col-md-4 col-sm-6 col-xs-12">
-										     <div class="inner-box">
+										     <div class="inner-box" >
 										       
 										 			<center>	
 														
@@ -317,7 +317,12 @@
 										  <div class="teacher-block col-md-4 col-sm-6 col-xs-12">
 										      <div class="inner-box">
 										        
-										  			<center>	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheforeshoreschoolikoyi%2F&tabs=timeline&width=300&height=450&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=457764251631346" width="300" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></center>
+										  			<center>	
+
+												
+															<iframe width="100%" height="450" src="https://rss.app/embed/v1/BcrJ06Gmti8KQt43" frameBorder="0"></iframe>
+												
+										  			</center>
 										                   
 										       </div>
 										   </div>
