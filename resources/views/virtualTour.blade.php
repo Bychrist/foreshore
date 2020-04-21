@@ -34,7 +34,7 @@
                               
                             </div>
                           
-                          <div class="teacher-block col-md-8 col-sm-6 col-xs-12" style="background:transparent;box-shadow:-7px -6px 52px -16px rgba(204,204,204,1);box-radius:10px; padding-left: 50px;padding-right: 50px;background-color: transparent;" >
+                          <div class="teacher-block col-md-8 col-sm-6 col-xs-12" style="background:transparent;box-shadow:-7px -6px 52px -16px rgba(204,204,204,1);border-radius:10px; padding-left: 50px;padding-right: 50px;background-color: transparent;" >
                               <div class="inner-box" style="height: 500px;background-color: transparent;">
                                     
                                   <center>  
@@ -72,7 +72,7 @@
                                  <div style="margin-top:-50px " class="title">Our Social Media News Feed</div>
                               </div>
 
-                          <div class="container" style="background:transparent;box-shadow:-7px -6px 52px -16px rgba(204,204,204,1);box-radius:10px">
+                          <div class="container" style="background:transparent;box-shadow:-7px -6px 52px -16px rgba(204,204,204,1);border-radius:10px">
                             
                         
                                   <div class="row">
