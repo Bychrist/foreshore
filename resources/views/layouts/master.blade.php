@@ -306,7 +306,9 @@ input[type=submit]:hover {
 	                                        </ul>
 										</div>
 	                                </div>
-	                            </div>
+								</div>
+								
+								
 	                            
 	                            <!--Footer Column-->
 	                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
