@@ -376,5 +376,7 @@ input[type=submit]:hover {
 	<script src="{{asset('js/jquery-ui.js')}}"></script>
 	<script src="{{asset('js/wow.js')}}"></script>
 	<script src="{{asset('js/script.js')}}"></script>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=457764251631346&autoLogAppEvents=1"></script>
 
 </body>
