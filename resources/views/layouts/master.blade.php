@@ -93,7 +93,7 @@ input[type=submit]:hover {
 	        	<div class="auto-container">
 	                	
 	                <div class="logo-outer" >
-	                    <div class="logo" ><a href=""><img src="{{asset('images/logo.png')}}" alt="" title=""></a></div>
+					<div class="logo" ><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" title=""></a></div>
 	                </div>
 	                    
 	                <div class="nav-outer clearfix">
@@ -122,7 +122,7 @@ input[type=submit]:hover {
 
 	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
 
-	                                        <li><a href="">Gallery</a></li>
+										<li><a href="{{url('gallery')}}">Gallery</a></li>
 	                                        
 	                                    </ul>
 	                                </li>
@@ -197,7 +197,7 @@ input[type=submit]:hover {
 	                                        
 	                                  	
 
-	                                        <li><a href="">Gallery</a></li>
+	                                        <li><a href="{{url('gallery')}}">Gallery</a></li>
 	                                    </ul>
 	                                </li>
 	                                <li class="dropdown"><a href="#">Academics</a>
@@ -306,7 +306,9 @@ input[type=submit]:hover {
 	                                        </ul>
 										</div>
 	                                </div>
-	                            </div>
+								</div>
+								
+								
 	                            
 	                            <!--Footer Column-->
 	                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">

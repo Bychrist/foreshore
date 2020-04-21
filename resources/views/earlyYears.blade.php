@@ -32,9 +32,8 @@
        	   </section>
        	   <!--End Welcome Section-->
 
-  	
 
-			<div style="width: 100%; padding-bottom: 100px; padding-left: 50px; padding-right: 50px">
+		<div style="width: 100%; padding-bottom: 100px; padding-left: 50px; padding-right: 50px">
 	<center>
 		<div style="width: 80%; padding-top: 100px; text-align:left">
 			<h2 style="padding-top: 100px">Crèche (3 - 17months)</h2>
@@ -106,7 +105,72 @@
 			  </ol>
 			  <p>The nursery school focuses primarily on the Early Years Foundation Stage programme (EYFS). </p>
 			  <hr>
-			  
+			  <h2>What your child will benefit from a Crèche/Preschool</h2>
+			<hr>
+			<p>In our fast changing world, parents are often faced with having to make
+the decision of getting a nanny, midwife, nurse, or family member to
+care for their babies and toddlers. While this is good for the child,
+you must also think of what your child stands to gain in a more
+intentional and structured environment.</p>
+			<p>It goes beyond the aesthetics of a modern day class. It’s about
+offering long lasting social, economic and academic benefits for these
+special ones. Studies have shown that children, including babies and
+infants of 6months to 4 years benefit such things as quality
+instruction, structure and social lessons.</p>
+			<p>These are what your child stands to gain at TFS Crèche/Preschool.</p>
+			<hr>
+			<h2>Regular Schedule/Activities</h2>
+			<hr>
+			<p>Our Crèche and preschool have structured programmes developed from the
+British National Curriculum, which has been broken down into various
+activities that have been tailored to meet the needs of each child and
+aid development in different areas of learning. Some of these activities
+include; rhymes/songs, storytelling, water play, sensorial activities
+etc.</p>
+<hr>
+<h2>Interaction</h2>
+<hr>
+<p>Your child has the opportunity to spend time with peers in a supervised
+and safe environment. During interaction, they learn problem solving
+skills, how to share and their personalities emerge as their minds grow.
+It also serves as an opportunity to interact with other adults who serve
+as mentors and provide positive guidance. Our care providers have been
+trained to respond to children’s vocalizations, provide encouragement,
+show a positive attitude and discourage negative interactions.</p>
+<hr>
+<h2>Higher Cognitive and Academic Achievement</h2>
+<hr>
+<p>Studies in the United States have shown that young children have higher
+cognitive and academic achievement scores as teens if they spent time in
+a high-quality daycare as young children. Of the more than 1,300
+children studied, over 90 percent had been in the care of someone other
+than a parent before the age of 4. The study defined “high-quality”
+daycare as facilities that provide extensive interaction with care
+providers, support, and cognitive-boosting activities.</p>
+<hr>
+<h2>Smoother Transition to Nursery</h2>
+<hr>
+<p>Infants who start school early easily adjust to formal schooling. They
+settle into routines easily and hardly experience separation anxiety.</p>
+<hr>
+<h2>Social and Economic Benefits for Parents</h2>
+<hr>
+<p>Parents experience less anxiety and fear on how their children are doing
+when left with care providers in a structured environment. In other
+words, you can get a job or go back to work without having to bother if
+your child is safe or not.  Even for stay-at –home mums who run their
+businesses from the comfort of their homes, enrolling your child in our
+crèche and preschool affords you that “me” time to meet your set
+goals and deadlines.</p>
+<hr>
+<p>Lastly, here at TFS we have enough care and love to go round.  It’s
+all about nurturing our young ones in a happy, safe and enabling
+environment.</p>
+<hr>
+			  <h3>“Make the “TFS choice” and watch your child blossom.”</h3>
+		</div>
+		<hr>
+		
 	</center>
  </div>
 

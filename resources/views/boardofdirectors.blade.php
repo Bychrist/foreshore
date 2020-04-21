@@ -151,6 +151,41 @@
                          </div>
                      </div>
 
+                      <div class="teacher-block col-md-3 col-sm-6 col-xs-12">
+                      <div class="inner-box">
+                          <div class="image-box" >
+                            <img src="{{asset('images/resource/Oladapo.jpg')}}" alt="" />
+                           </div>
+                           <h3>Mr. <br> Oladapo Egbeyemi</h3>
+                           <div class="designation">Director</div>
+                           <div class="text">
+                              
+
+                              <div class="scroll-bar-wrap">
+                                <div class="scroll-box">
+                                  <p>
+                                    Mr. Oladapo Egbeyemi holds a Bachelor’s degree in accounting (1985) from the University of Lagos. He has vast experience in the finance industry, having worked at institutions such as the Nigeria International Bank – NIB (now Citi bank), Chartered Bank Nigeria Plc. and Commercial Trust Bank Limited.
+                                  </p>
+                                  <p>
+                                    After working in the finance industry for about 10 years, he founded Worthwhile Ventures Limited (Locks & Switches) in 1994 and Bathrooms & Beyond in 2008.
+                                  </p>
+                                  <p>
+                                    Mr. Egbeyemi served on the Board of Cornerstone Insurance Plc as a non-Executive Director 2004 to 2016 and was the Chairman of Cap Phoenix Cornerstone Limited from 2015 to 2016. He is currently the Chairman of the Ogun State Mineral Resources and Environmental Management Committee (MIREMCO) and a non-Executive Director on the Board of Troloppe Property Services Limited.
+                                  </p>
+                                  <p>
+                                    Mr. Egbeyemi is an alumnus of the prestigious Lagos Business School (Owner-Manager Programme “OMP 1”). He is also an Executive Committee and Governing Council member of the Lagos state Business School Alumni Association.
+                                  </p>
+                               
+                                </div>
+                                <div class="cover-bar"></div>
+                              </div>
+                           
+
+                          </div>
+      
+                       </div>
+                     </div>
+
 
 
                   <div class="teacher-block col-md-3 col-sm-6 col-xs-12">
@@ -226,40 +261,7 @@
                   
                   
                   
-                  <div class="teacher-block col-md-3 col-sm-6 col-xs-12">
-                      <div class="inner-box">
-                          <div class="image-box" >
-                            <img src="{{asset('images/resource/Oladapo.jpg')}}" alt="" />
-                           </div>
-                           <h3>Mr. <br> Oladapo Egbeyemi</h3>
-                           <div class="designation">Director</div>
-                           <div class="text">
-                              
-
-                              <div class="scroll-bar-wrap">
-                                <div class="scroll-box">
-                                  <p>
-                                    Mr. Oladapo Egbeyemi holds a Bachelor’s degree in accounting (1985) from the University of Lagos. He has vast experience in the finance industry, having worked at institutions such as the Nigeria International Bank – NIB (now Citi bank), Chartered Bank Nigeria Plc. and Commercial Trust Bank Limited.
-                                  </p>
-                                  <p>
-                                    After working in the finance industry for about 10 years, he founded Worthwhile Ventures Limited (Locks & Switches) in 1994 and Bathrooms & Beyond in 2008.
-                                  </p>
-                                  <p>
-                                    Mr. Egbeyemi served on the Board of Cornerstone Insurance Plc as a non-Executive Director 2004 to 2016 and was the Chairman of Cap Phoenix Cornerstone Limited from 2015 to 2016. He is currently the Chairman of the Ogun State Mineral Resources and Environmental Management Committee (MIREMCO) and a non-Executive Director on the Board of Troloppe Property Services Limited.
-                                  </p>
-                                  <p>
-                                    Mr. Egbeyemi is an alumnus of the prestigious Lagos Business School (Owner-Manager Programme “OMP 1”). He is also an Executive Committee and Governing Council member of the Lagos state Business School Alumni Association.
-                                  </p>
-                               
-                                </div>
-                                <div class="cover-bar"></div>
-                              </div>
-                           
-
-                          </div>
-      
-                       </div>
-                     </div>
+                 
                   
                   
                   <div class="teacher-block col-md-3 col-sm-6 col-xs-12">

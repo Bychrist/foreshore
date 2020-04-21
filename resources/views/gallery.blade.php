@@ -14,39 +14,115 @@
                </div>
            </div>
        </section>
-       <!--End Page Title-->
+	   <!--End Page Title-->
+	   
+	    <!--Welcome Section-->
+       	   <section class="welcome-section" style="margin-bottom: -200px">
+       	   	<div class="auto-container">
+       	       	<!--Sec Title-->
+       	           <div class="sec-title centered">
+       	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
+       	           	<h2>Gallery</h2>
+                     <div class="title">Foreshore Gallery</div>
+       	           </div>
+       	       </div>
+       	   </section>
+       	   <!--End Welcome Section-->
 
-  	 <!--Gallery Section-->
-   <div class="container">
-<div class="page-list-ext-item"><div class="page-list-ext-image"><a href="http://tfsikoyi.com/about-us/gallery/photos/graduation-concert-july-2015/" title="Graduation Concert - July 2015"><img src="http://tfsikoyi.com/wp-content/uploads/2015/07/DSC_4047.jpg" width="300" alt="Graduation Concert - July 2015" /></a></div> <h3 class="page-list-ext-title"><a href="http://tfsikoyi.com/about-us/gallery/photos/graduation-concert-july-2015/" title="Graduation Concert - July 2015">Graduation Concert - July 2015</a></h3><div class="page-list-ext-item-content">
-                                                              
-</div></div>
-<div class="page-list-ext-item"><div class="page-list-ext-image"><a href="http://tfsikoyi.com/about-us/gallery/photos/independence-day-concert/" title="Independence Day Concert - October 2019"><img src="http://tfsikoyi.com/wp-content/uploads/2019/12/DSC_8644-1024x683.jpg" width="300" alt="Independence Day Concert - October 2019" /></a></div> <h3 class="page-list-ext-title"><a href="http://tfsikoyi.com/about-us/gallery/photos/independence-day-concert/" title="Independence Day Concert - October 2019">Independence Day Concert - October 2019</a></h3><div class="page-list-ext-item-content">
-                                                                                                                                      
-</div></div>
+  
 
-</div>
-			</div>
-</article>
-															</main>
-			</div>
-			<div class="col-sm-4 col-md-3 col-xs-12">
-	<aside class="sidebar-widget-area">
-		<aside id="text-3" class="widget widget_text"><h3 class="widget-title">Photo Albums</h3>			<div class="textwidget">
-<!-- Page-list plugin v.5.2 wordpress.org/plugins/page-list/ -->
-<ul class="page-list subpages-page-list ">
-<li class="page_item page-item-2834"><a href="http://tfsikoyi.com/about-us/gallery/photos/graduation-concert-july-2015/">Graduation Concert &#8211; July 2015</a></li>
-<li class="page_item page-item-2812"><a href="http://tfsikoyi.com/about-us/gallery/photos/independence-day-concert/">Independence Day Concert &#8211; October 2019</a></li>
+ <!--Gallery Section-->
+    <section class="gallery-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+				<h2 style="padding-top: 100px">Graduation (2019)</h2>
+			<hr>
+            
+            	<!--Gallery Item-->
+                <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box"><img src="{{asset('images/gallery/WhatsApp Image 2019-07-04 at 2.32.04 PM.jpeg')}}" alt="" height="500" width="600">
+                            <div class="overlay-box">
+                                <div class="content">
+                                    <a class="lightbox-image" href="{{asset('images/gallery/WhatsApp Image 2019-07-04 at 2.32.04 PM.jpeg')}}" title="Graduation" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Gallery Item-->
+                <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box"><img src="{{asset('images/gallery/WhatsApp Image 2019-07-04 at 2.32.34 PM.jpeg')}}" alt="" height="500" width="600">
+                            <div class="overlay-box">
+                                <div class="content">
+                                    <a class="lightbox-image" href="{{asset('images/gallery/WhatsApp Image 2019-07-04 at 2.32.34 PM.jpeg')}}" title="Graduation" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Gallery Item-->
+                <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box"><img src="{{asset('images/gallery/WhatsApp Image 2019-07-05 at 2.55.28 PM.jpeg')}}" alt="" height="500" width="600">
+                            <div class="overlay-box">
+                                <div class="content">
+                                    <a class="lightbox-image" href="{{asset('images/gallery/WhatsApp Image 2019-07-05 at 2.55.28 PM.jpeg')}}" title="Graduation" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Gallery Item-->
+                <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box"><img src="{{asset('images/gallery/WhatsApp Image 2019-07-05 at 2.55.31 PM(1).jpeg')}}" alt="" height="500" width="600">
+                            <div class="overlay-box">
+                                <div class="content">
+                                    <a class="lightbox-image" href="{{asset('images/gallery/WhatsApp Image 2019-07-05 at 2.55.31 PM(1).jpeg')}}" title="Graduation" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Gallery Item-->
+                <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box"><img src="{{asset('images/gallery/WhatsApp Image 2019-07-09 at 11.22.17 AM(2).jpeg')}}" alt="" height="500" width="600">
+                            <div class="overlay-box">
+                                <div class="content">
+                                    <a class="lightbox-image" href="{{asset('images/gallery/WhatsApp Image 2019-07-09 at 11.22.17 AM(2).jpeg')}}" title="Graduation" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Gallery Item-->
+                <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box"><img src="{{asset('images/gallery/WhatsApp Image 2019-07-09 at 11.24.38 AM(3).jpeg')}}" alt="" height="500" width="600">
+                            <div class="overlay-box">
+                                <div class="content">
+                                    <a class="lightbox-image" href="{{asset('images/gallery/WhatsApp Image 2019-07-09 at 11.24.38 AM(3).jpeg')}}" title="Graduation" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-</ul>
-</div>
-		</aside>	</aside>
-</div>		</div>
-	</div>
-</div>
-</div><!-- #content -->
+            </div>
+            
+           
+            
+        </div>
+    </section>
     <!--End Gallery Section-->
-
 			
 
 
