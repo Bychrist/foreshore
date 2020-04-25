@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\PixCategory;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,10 +12,10 @@ class HomeController extends Controller
      *
      * @return void
      */
-    // public function __construct()
-    // {
-    //     $this->middleware('auth');
-    // }
+    public function __construct()
+    {
+        $this->middleware('auth')->only('adminHome');
+    }
 
     /**
      * Show the application dashboard.
@@ -98,6 +99,13 @@ class HomeController extends Controller
     {
         return view('handbook');
     
+    }
+
+
+    public function adminHome()
+    {
+        $categories = PixCategory::all();
+        return view('adminhome', compact('categories'));
     }
 
 

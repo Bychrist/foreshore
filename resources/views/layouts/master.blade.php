@@ -80,6 +80,24 @@ input[type=submit]:hover {
 	                    	<li><span class="icon fa fa-envelope-o"></span><a >info@tfsikoyi.com</a></li>
                 
 	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
+	                       @if(Auth::guest()) <li><span class="icon fa fa-user"></span><a href="{{url('/login')}}">Admin | Login</a></li>
+
+	                       @else
+
+								 <li><span class="icon fa fa-user"></span><a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                           Admin | Logout
+                                        </a></li>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+
+                                   <li><span class="icon fa fa-home"></span><a href="{{url('home')}}" >Admin Home</a></li>
+                
+
+	                       @endif
 	                    </ul>
 	                </div>
 	                
