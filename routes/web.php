@@ -19,6 +19,7 @@ Auth::routes();
 
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('dashboard');
 Route::get('/about/who-we-are', 'HomeController@whoweare')->name('whoweare');
 
 Route::get('/virtual', 'HomeController@virtual')->name('virtual');
