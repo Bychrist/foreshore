@@ -21,7 +21,6 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('dashboard');
 Route::get('/about/who-we-are', 'HomeController@whoweare')->name('whoweare');
-
 Route::get('/virtual', 'HomeController@virtual')->name('virtual');
 Route::get('/facility/development', 'HomeController@facilityDevelopment')->name('development');
 Route::get('/facility/school-facility', 'HomeController@schoolFacility')->name('facility');
@@ -35,3 +34,19 @@ Route::get('/primary', 'HomeController@primary')->name('primary');
 Route::get('/extra-curricular', 'HomeController@extraCurricular')->name('extraCurricular');
 Route::get('/calendar', 'HomeController@calendar')->name('calendar');
 Route::get('/handbook', 'HomeController@handbook')->name('handbook');
+
+/* the admin route*/
+
+Route::get('/home', 'HomeController@adminHome')->name('adminhome');
+
+// category
+Route::post('/create/event-category', 'PixCategoryController@create');
+Route::get('/edit/event-category/{id}', 'PixCategoryController@edit');
+Route::post('/update/event-category/{id}', 'PixCategoryController@update');
+Route::get('/delete/event-category/{id}', 'PixCategoryController@delete');
+Route::get('/index/event-category', 'PixCategoryController@index');
+
+
+//
+
+
