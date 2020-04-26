@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Pix;
 use App\PixCategory;
 use Illuminate\Http\Request;
 
@@ -61,7 +62,10 @@ class HomeController extends Controller
 
     public function gallery()
     {
-        return view('gallery');
+
+        $pixes = Pix::paginate(15);
+
+        return view('gallery',compact('pixes'));
     }
 
     public function earlyYears()
@@ -105,7 +109,8 @@ class HomeController extends Controller
     public function adminHome()
     {
         $categories = PixCategory::all();
-        return view('adminhome', compact('categories'));
+        $pix = Pix::all();
+        return view('adminhome', compact('categories','pix'));
     }
 
 

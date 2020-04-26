@@ -16,6 +16,7 @@ class CreatePixesTable extends Migration
         Schema::create('pixes', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('PixCategory_id')->unsigned();
+            $table -> foreign('PixCategory_id') -> references('id') -> on('pix_categories');
             $table->string('title')->unique();
             $table->timestamps();
         });

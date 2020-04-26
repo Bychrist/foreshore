@@ -26,7 +26,7 @@
                                 <div class="card bg-danger text-white mb-4">
                                     <div class="card-body">Images Uploaded</div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link">Number: 300</a>
+                                        <a class="small text-white stretched-link">Number: {{$pix->count()}}</a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
@@ -72,24 +72,48 @@
                                 <div class="card mb-4">
                                     <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Upload Images</div>
 
-                                    <form action="" enctype="multipart/form-data">
+                                       @if(session()->has('successPix'))
+                                           <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                             <strong>Success!</strong> {{ session()->get('successPix') }}
+                                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                               <span aria-hidden="true">&times;</span>
+                                             </button>
+                                           </div>
+                                       @endif
+
+
+                                       @if(session()->has('FailPix'))
+                                           <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                             <strong>Failed!</strong> {{ session()->get('FailPix') }}
+                                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                               <span aria-hidden="true">&times;</span>
+                                             </button>
+                                           </div>
+                                       @endif
+
+                                    <form action="{{url('create/upload')}}" method="post" enctype="multipart/form-data">
                                     	
                                     	<div class="form-group" style="padding: 30px">
-                                    		
+                                    		{{ csrf_field() }}
 
                                     		<br>
 
                                     		<input type="file" name="title" required="" class="form-control" placeholder="event name category name">
+                                            @if($errors->has('image_name'))
+                                                <span class="help-block">{{ $errors->first('title') }}</span>
+                                              @endif
 
                                     		<br>
 
                                     		<select name="PixCategory_id" required="required" class="form-control">
                                                 <option value="{{null}}">- Select Category --</option>
                                     			@foreach($categories as $cat)
-                                                <option value="{{$cat->id}}">{{$cat->category_name}}</option>
+                                                <option value="{{$cat->id}}.{{$cat->category_name}}">{{$cat->category_name}}</option>
 
 
                                                 @endforeach
+
+
                                     		</select>
 
                                     		<br>

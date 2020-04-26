@@ -46,6 +46,11 @@ Route::get('/delete/event-category/{id}', 'PixCategoryController@delete');
 Route::get('/index/event-category', 'PixCategoryController@index');
 
 
-//
+//Pix
+Route::post('/create/upload', 'PixController@create');
+Route::get('/pix/index', 'PixController@index');
+Route::get('/pix/delete/{id}', 'PixController@delete');
+
+
 
 
