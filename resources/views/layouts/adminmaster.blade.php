@@ -63,6 +63,15 @@
                                 ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Category Table
                             </a >
+
+                            <a class="nav-link" href="{{url('pix/index')}}"
+                                ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Images Table
+                            </a >
+
+
+
+                      
                         
                         </div>
                     </div>
