@@ -95,7 +95,7 @@
 
 
   	    <!--Teachers Section-->
-  	    <section class="teachers-section no-padding-btm">
+  	    <section class="teachers-section no-padding-btm" style="margin-top: -300px">
   	    
   	        <div class="background-patten"></div>
   	    </section>
