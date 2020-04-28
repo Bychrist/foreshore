@@ -170,7 +170,7 @@
                    <div class="teacher-block col-md-4 col-sm-6 col-xs-12">
                        <div class="inner-box">
                            <div class="image-box" >
-                               <img src="{{asset('images/resource/Tolutope.jpg')}}" alt="" />
+                               <img src="{{asset('images/resource/TOLUTOPE.jpg')}}" alt="" />
                               </div>
                               <h3>Tolutope Okieimen</h3>
                               <div class="designation"> Key Stage 1 and Special Education Coordinator</div>
