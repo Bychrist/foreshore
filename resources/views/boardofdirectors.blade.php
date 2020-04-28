@@ -85,7 +85,7 @@
                            <img src="{{asset('images/resource/Olubunmi.jpg')}}" alt="" />
                           </div>
                           <h3>Mrs. <br> Olubunmi Egbeyemi </h3>
-                          <div class="designation">Executive Director/ CEO</div>
+                          <div class="designation" style="font-size:14px;">Executive Director/ CEO</div>
                           <div class="text">
                              
 
@@ -121,7 +121,7 @@
                               <img src="{{asset('images/resource/Oyindamola.jpg')}}" alt="" />
                              </div>
                              <h3>Ms. <br> Oyindamola Egbeyemi </h3>
-                             <div class="designation">Executive Director/ Administrator</div>
+                             <div class="designation" style="font-size:14px;">Executive Director/ Admin.</div>
                              <div class="text">
                                 
 
@@ -157,7 +157,7 @@
                             <img src="{{asset('images/resource/Oladapo.jpg')}}" alt="" />
                            </div>
                            <h3>Mr. <br> Oladapo Egbeyemi</h3>
-                           <div class="designation">Director</div>
+                           <div class="designation" style="font-size:14px;">Director</div>
                            <div class="text">
                               
 
@@ -194,7 +194,7 @@
                               <img src="{{asset('images/resource/Folasade.jpg')}}" alt="" />
                              </div>
                              <h3>Mrs. <br> Folasade Adefisayo </h3>
-                             <div class="designation">Director</div>
+                             <div class="designation" style="font-size:14px;">Director</div>
                              <div class="text">
                                 
 
@@ -229,7 +229,7 @@
                               <img src="{{asset('images/resource/Oyewole.jpg')}}" alt="" />
                              </div>
                              <h3>Mr.<br>Oyewole Okunfulure  </h3>
-                             <div class="designation">Director</div>
+                             <div class="designation" style="font-size:14px;">Director</div>
                              <div class="text">
                                 
 
@@ -247,7 +247,7 @@
                                     <p>
                                       A family man, Mr. Joseph Oyewole Okunfulure is happily married and blessed with lovely children.
                                     </p>
-                                 
+                                  
                                   </div>
                                   <div class="cover-bar"></div>
                                 </div>
@@ -270,7 +270,7 @@
                               <img src="{{asset('images/resource/Oluwademilade.jpg')}}" alt="" />
                              </div>
                              <h3>Mr.<br> Oluwademilade Egbeyemi  </h3>
-                             <div class="designation" style="margin-top: -10px">Director</div>
+                             <div class="designation" style="margin-top: -10px;font-size:14px">Director</div>
                              <div class="text">
                                 
 
@@ -285,14 +285,14 @@
                                     <p>
                                       Mr. Oluwademilade Egbeyemi enjoys sports and fitness. He does some personal training in his free time and played rugby for the University of Manchester, Whitworth Park Rugby Union Football Club. He is a Co-founder of All for God, All for Good Charity annual Yard sale for the less privileged where all proceeds go to a selected charity.
                                     </p>
-                                
+                                <br>
                                   </div>
                                   <div class="cover-bar"></div>
                                 </div>
                              
 
                             </div>
-
+                               <br>
                                  
                          </div>
                      </div>
@@ -304,7 +304,7 @@
                               <img src="{{asset('images/resource/Oluwadarafunmi.jpg')}}" alt="" />
                              </div>
                              <h3>Mr.<br> Oluwadarafunmi Egbeyemi  </h3>
-                             <div class="designation" style="margin-top: -10px">Director</div>
+                             <div class="designation" style="margin-top: -10px;font-size:14px">Director</div>
                              <div class="text">
                                 
 
@@ -319,12 +319,12 @@
                                     <p>
                                       Mr Oluwadarafumi is a long distance runner. He is a Co-founder of All for God, All for Good Charity annual Yard sale for the less privileged where all proceeds go to a selected charity.
                                     </p>
-                                
+                      
                                   </div>
                                   <div class="cover-bar"></div>
                                 </div>
                              
-
+                                      <br>
                             </div>
 
                                  

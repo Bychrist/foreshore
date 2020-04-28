@@ -57,6 +57,12 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+.reduce{
+	padding:0px !important;
+}
+
+
 </style>
 </head>
 
@@ -77,9 +83,9 @@ input[type=submit]:hover {
 	            	<div class="top-left pull-left">
 	                	<ul class="links-nav clearfix">
 
-	                    	<li><span class="icon fa fa-envelope-o"></span><a >info@tfsikoyi.com</a></li>
+	                    	<li><span class="icon fa fa-envelope-o"></span>{{"info@tfsikoyi.com"}}</li>
                 
-	                        <li><span class="icon fa fa-phone"></span><a>Call Us Now : 08023121865 or 08176139340</a></li>
+	                        <li><span class="icon fa fa-phone"></span>Call us now : 08023121865 or 08176139340</li>
 	                       @if(Auth::guest()) <li><span class="icon fa fa-user"></span><a href="{{url('/login')}}">Admin | Login</a></li>
 
 	                       @else
@@ -105,10 +111,13 @@ input[type=submit]:hover {
 	            </div>
 	        </div>
 	        <!-- Header Top End -->
+
+
+
 	        
 	        <!--Header-Upper-->
-	        <div class="header-upper">
-	        	<div class="auto-container">
+	        <div class="header-upper" >
+	        	<div class="auto-container" >
 	                	
 	                <div class="logo-outer" >
 					<div class="logo" ><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" title=""></a></div>
@@ -117,7 +126,7 @@ input[type=submit]:hover {
 	                <div class="nav-outer clearfix">
 	                
 	                    <!-- Main Menu -->
-	                    <nav class="main-menu">
+	                    <nav class="main-menu" style="padding:0px;">
 	                        <div class="navbar-header">
 	                            <!-- Toggle Button -->    	
 	                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -127,9 +136,9 @@ input[type=submit]:hover {
 	                            </button>
 	                        </div>
 	                        
-	                        <div class="navbar-collapse collapse clearfix">
+	                        <div  class="navbar-collapse collapse clearfix">
 	                            <!--Left Nav-->
-	                            <ul class="navigation left-nav clearfix">
+	                            <ul class="navigation left-nav clearfix" >
 
 	                                <li><a href="{{url('/')}}">Home</a></li>
 
@@ -149,24 +158,25 @@ input[type=submit]:hover {
 										<li><a href="{{url('/early-years')}}">Early Years</a></li>
 	                                        <li><a href="{{url('/primary')}}">Primary School</a></li>
 	                                        <li><a href="{{url('/extra-curricular')}}">Extracurricular Activities</a></li>
-										<li><a href="{{url('/calendar')}}">Calender</a></li>
-	                                        <li><a href="{{url('/handbook')}}">Parents HandBook</a></li>
+										<li><a href="{{url('/calendar')}}">Calendar</a></li>
+	                                        <li><a href="{{url('/handbook')}}">Parents Handbook</a></li>
 	                                    </ul>
 	                                </li>
 	                                <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
 	                            </ul>
 	                            <!--Right Nav-->
 
-	                            <ul class="navigation right-nav clearfix">
-	                                  <li class="dropdown"><a href="#">Facility</a>
+	                            <ul class="navigation right-nav clearfix" >
+	                                  <li  class="dropdown"><a href="#">Facility</a>
 	                                      <ul>
 										  <li><a href="{{url('/facility/school-facility')}}">School Facilities</a></li>
 	                                          <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                       
 	                                      </ul>
 	                                  </li>
-									<li ><a href="{{url('/parents-portal')}}">Parents' Portal</a></li>
-									<li><a href="{{url('/contact')}}">Contact Us</a></li>
+									<li ><a href="{{url('/parents-portal')}}" title="parents' portal"> Portal</a></li>
+									<li><a href="{{url('/blog')}}">Blog</a></li>
+									<li ><a href="{{url('/contact')}}">Contact Us</a></li>
                                 </ul>
 	                        </div>
 	                    </nav>
@@ -223,7 +233,7 @@ input[type=submit]:hover {
 	                                    	<li><a href="{{url('/early-years')}}">Early Years</a></li>
 										<li><a href="{{url('/primary')}}">Primary School</a></li>
 										<li><a href="{{url('/extra-curricular')}}">Extracurriculum Activities</a></li>
-	                                        <li><a href="{{url('/calendar')}}">Calender</a></li>
+	                                        <li><a href="{{url('/calendar')}}">Calendar</a></li>
 	                                        <li><a href="{{url('/handbook')}}">Parent Handbook</a></li>
 	                                    </ul>
 	                                </li>
@@ -235,6 +245,7 @@ input[type=submit]:hover {
 	                                    </ul>
 	                                </li>
 	                                <li><a href="{{url('/parents-portal')}}">Parent's Portal</a></li>
+	                                <li><a href="{{url('/blog')}}">Blog</a></li>
 	                                <li><a href="{{url('/contact')}}">Contact Us</a></li>
 	                            </ul>
 	                        </div>
@@ -276,7 +287,7 @@ input[type=submit]:hover {
 	                                        	<li class="facebook"><a href="https://www.facebook.com/theforeshoreschoolikoyi/"><span class="fa fa-facebook"></span></a></li>
 	                                            <li class="twitter"><a href="https://twitter.com/tfsikoyi"><span class="fa fa-twitter"></span></a></li>
 	                                            <li class="instagram"><a href="https://instagram.com/tfsikoyi"><span class="fa fa-instagram"></span></a></li>
-	                                            {{-- <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li> --}}
+	                                             <li class="linkedin"><a href="https://www.linkedin.com/company/midland-digital-solutions/" target="_blank"><span class="fa fa-linkedin"></span></a></li> 
 	                                        </ul>
 										</div>
 									</div>
@@ -295,7 +306,6 @@ input[type=submit]:hover {
 	                                            <li><a href="{{action('HomeController@whoweare')}}">About</a></li>
 	                                            <li><a href="#">Academics</a></li>
 	                                            <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
-	                                            <li><a href="{{url('/contact')}}">Contact Us</a></li>
 	                                        </ul>
 										</div>
 	                                </div>
@@ -319,7 +329,7 @@ input[type=submit]:hover {
 	                                    	<ul class="list">
 	                                            <li><a href="{{url('/early-years')}}">Early Years</a></li>
 	                                            <li><a href="{{url('/primary')}}">Primary School</a></li>
-	                                            <li><a href="{{url('/calendar')}}">Calender</a></li>
+	                                            <li><a href="{{url('/calendar')}}">Calendar</a></li>
 	                                            <li><a href="{{url('/handbook')}}">Parent Handbook</a></li>
 	                                        </ul>
 										</div>
@@ -333,21 +343,11 @@ input[type=submit]:hover {
 	                            	
 	                                <div class="footer-widget subscribe-widget">
 	                                    <div class="footer-title">
-	                                    	<h2>News letter</h2>
+	                                    	<h2>Contact Us</h2>
 	                                    </div>
 	                                    <div class="widget-content">
 	                                        <div class="newsletter-form">
-	                                            <form method="post" action="">
-	                                                <div class="form-group">
-	                                                    <input type="text" name="name" value="" placeholder="Name *" required="">
-	                                                </div>
-	                                                <div class="form-group">
-	                                                    <input type="email" name="email" value="" placeholder="Email Id" required="">
-	                                                </div>
-	                                                <div class="form-group">
-	                                                    <button type="submit" class="theme-btn btn-style-one">SUBSCRIBE</button>
-	                                                </div>
-	                                            </form>
+	                                            <button href="{{url('/contact')}}" class="theme-btn btn-style-one">Contact Us</button>
 	                                        </div>
 	                                    </div>
 	                                </div>
@@ -367,7 +367,9 @@ input[type=submit]:hover {
 	                    	<div class="copyright">&copy; Copyrights 2020 Foreshore School. All Rights Reserved</div>
 	                    </div>
 	                    <div class="column col-md-6 col-sm-6 col-xs-12">
-	                    
+	                    	<div class="cards">
+	                    		<a href="https://midlanddigitalsolutions.com/" class="copyright" target="_blank">Designed by Midland Digital Solutions </a>
+	                    	</div>
 	                    </div>
 	                </div>
 	            </div>

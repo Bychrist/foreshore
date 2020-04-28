@@ -38,7 +38,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><div class="styled-text">Welcome To Foreshore School</div></div>
+	                    data-endeasing="Power4.easeIn"><div class="styled-text">Welcome To The Foreshore School</div></div>
 	                    
 	                    <div class="tp-caption sfb sfb tp-resizeme"
 	                    data-x="center" data-hoffset="0"
@@ -77,7 +77,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><a href="#" title="Go to about" class="theme-btn btn-style-one">Let’s Go</a></div>
+	                    data-endeasing="Power4.easeIn"><a href="{{url('/contact')}}" title="Go to about" class="theme-btn btn-style-one">Let’s Go</a></div>
 	                    
 	                    </li>
 	                    
@@ -95,7 +95,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><h4>Welcome To Foreshore School</h4></div>
+	                    data-endeasing="Power4.easeIn"><h4>Welcome To The Foreshore School</h4></div>
 	                    
 	                    <div class="tp-caption sfl sfb tp-resizeme"
 	                    data-x="left" data-hoffset="450"
@@ -121,7 +121,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><div class="dark-text">We provide a clean, safe and TenderlovingTM environment that fosters
+	                    data-endeasing="Power4.easeIn"><div class="dark-text">We provide a clean, safe and Tenderloving<sup>TM</sup> environment that fosters
 						each child’s unique potential, <br>whilst nurturing personal and
 						professional growth in our staff team and empowering our community.</div></div>
 	                    
@@ -136,7 +136,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one">Let’s Go</a>&ensp; &ensp;<a href="#" class="theme-btn btn-style-two">Read more </a></div>                    
+	                    data-endeasing="Power4.easeIn"><a href="{{url('/contact')}}" class="theme-btn btn-style-one">Let’s Go</a>&ensp; &ensp;<a href="{{url('/contact')}}" class="theme-btn btn-style-two">Read more </a></div>                    
 	                    </li>
 	                    
 	                </ul>
@@ -154,7 +154,7 @@
   	        	<!--Sec Title-->
   	            <div class="sec-title centered">
   	            	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
-  	            	<h2>Welcome To Foreshore School</h2>
+  	            	<h2>Welcome To The Foreshore School</h2>
   	                <div class="title">About Our  School</div>
   	                <div class="text">We provide a clean, safe and tender loving environment that fosters each child’s unique potential</div>
   	            </div>

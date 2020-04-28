@@ -108,7 +108,7 @@
                                <div class="icon-box">
                                    <span class="icon flaticon-graduation-cap"></span>
                                </div>
-                               <h3><a href="features.html">Our Philosophy</a></h3>
+                               <h3><a href="">Our Philosophy</a></h3>
                                <div class="text">
                                	We believe that every child…
 
@@ -117,7 +117,7 @@
                                	     * is a sensitive, feeling and thinking individual who thrives in a
                                	stimulating environment
                                	     * deserves the best opportunity to benefit from a comprehensive Early
-                               	Childhood Program
+                               	Childhood programme
                                </div>
                            </div>
                        </div>
@@ -126,10 +126,15 @@
                
                    <div class="image-column col-md-4 col-sm-12 col-xs-12">
                        <figure class="image wow fadeInUp">
-                           <img src="{{asset('images/resource/welcome-img.png')}}" alt="" />
+                            <img src="{{asset('images/resource/teachersjump.png')}}" alt="" />
                        </figure>
+                       <br>
+                       <br>
+                       <br>
+                       <br>
+                       <br><br>
                        <figure class="image wow fadeInUp">
-                           <img src="{{asset('images/resource/books.png')}}" alt="" />
+                           <img src="{{asset('images/resource/teachersjump.png')}}" alt="" />
                        </figure>
                    </div>
                    
@@ -174,11 +179,11 @@
 			                        <!--Content Column-->
 			                        <div class="content-column">
 			                            <div class="inner">
-			                                <div class="post-date">18 months - 3 years</div>
+			                                <div class="post-date"> 3 - 17 Months</div>
 			                                <h3><a>Creche</a></h3>
 			                               <div class="post-date">Classes</div>
 			                               <h3><a>N/A</a></h3>
-			                              
+			                               <br>
 			                            </div>
 			                        </div>
 			                    </div>
@@ -191,11 +196,11 @@
 			                    	<!--Content Column-->
 			                    	<div class="content-column">
 			                    	    <div class="inner">
-			                    	        <div class="post-date">	3 - 18 months</div>
+			                    	        <div class="post-date">	18 Months - 3 Years</div>
 			                    	        <h3><a>Preschool</a></h3>
 			                    	       <div class="post-date">Classes</div>
 			                    	       <h3><a>	Preschool 1 & 2</a></h3>
-			                    	      
+			                    	       <br>
 			                    	    </div>
 			                    	</div>
 			                    </div>
@@ -207,7 +212,7 @@
 			                    	<!--Content Column-->
 			                    	<div class="content-column">
 			                    	    <div class="inner">
-			                    	        <div class="post-date">	4 - 5 years</div>
+			                    	        <div class="post-date">	3 - 5 years</div>
 			                    	        <h3><a>Nursery</a></h3>
 			                    	       <div class="post-date">Classes</div>
 			                    	       <h3><a>	Nursery 1 & 2/Reception</a></h3>
@@ -226,7 +231,7 @@
 			                    	        <h3><a>Primary</a></h3>
 			                    	       <div class="post-date">Classes</div>
 			                    	       <h3><a>	Year 1, 2, 3, 4, 5 & 6</a></h3>
-			                    	      
+			                    	      <br>
 			                    	    </div>
 			                    	</div>
 			                    </div>

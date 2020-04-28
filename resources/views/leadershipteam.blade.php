@@ -25,7 +25,7 @@
   	           <div class="sec-title centered">
   	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
   	           	<h2>Leadership Team</h2>
-                <div class="title">Great Leadershipt Team</div>
+                <div class="title">Great Leadership Team</div>
   	             
   	            
   	           </div>

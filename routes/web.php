@@ -33,6 +33,7 @@ Route::get('/primary', 'HomeController@primary')->name('primary');
 Route::get('/extra-curricular', 'HomeController@extraCurricular')->name('extraCurricular');
 Route::get('/calendar', 'HomeController@calendar')->name('calendar');
 Route::get('/handbook', 'HomeController@handbook')->name('handbook');
+Route::get('/blog', 'HomeController@blog')->name('blog');
 
 /* the admin route*/
 
