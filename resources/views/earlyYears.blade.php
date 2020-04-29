@@ -682,7 +682,7 @@
 
 
 
-  	    <section class="teachers-section no-padding-btm" style="margin-top:-300px">
+  	    <section class="teachers-section no-padding-btm" style="margin-top:-200px">
   	    
   	        <div class="background-patten"></div>
   	    </section>
