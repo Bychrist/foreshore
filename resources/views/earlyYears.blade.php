@@ -665,14 +665,24 @@
 
 
 
+  <section class="welcome-section" style="margin-bottom: -200px;margin-top:100px;background:transparent">
+  	   	<div class="auto-container">
+  	       	<!--Sec Title-->
+  	           <div class="sec-title centered">
+  	           	
+               @include('layouts._callaction')
+  	            
+  	           </div>
+  	        
+  	       </div>
+  	   </section>
 
 
 
 
 
 
-
-  	    <section class="teachers-section no-padding-btm">
+  	    <section class="teachers-section no-padding-btm" style="margin-top:-300px">
   	    
   	        <div class="background-patten"></div>
   	    </section>

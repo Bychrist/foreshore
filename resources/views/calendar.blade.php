@@ -49,7 +49,17 @@
 		</center>
 
 
-
+		<section class="welcome-section" style="margin-bottom: -200px;margin-top:100px;background:transparent">
+  	   	<div class="auto-container">
+  	       	<!--Sec Title-->
+  	           <div class="sec-title centered">
+  	           	
+               @include('layouts._callaction')
+  	            
+  	           </div>
+  	        
+  	       </div>
+  	   </section>
 
 
 

@@ -117,6 +117,22 @@
 
 
                               </div>
+
+
+                                
+         <section class="welcome-section" style="margin-bottom: -200px;background:transparent">
+  	   	<div class="auto-container">
+  	       	<!--Sec Title-->
+  	           <div class="sec-title centered">
+  	           	
+               @include('layouts._callaction')
+  	            
+  	           </div>
+  	        
+  	       </div>
+  	   </section>
+
+
                               
                           <div class="background-patten"></div>
                       </section>
