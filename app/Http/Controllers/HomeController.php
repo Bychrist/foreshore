@@ -119,7 +119,7 @@ class HomeController extends Controller
     {
         $categories = PixCategory::all();
         $pix = Pix::all();
-        return view('adminhome', compact('categories','pix'));
+        return view('adminHome', compact('categories','pix'));
     }
 
 

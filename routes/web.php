@@ -40,6 +40,7 @@ Route::get('/gallery/{id}', 'HomeController@singleGallery')->name('singleGallery
 /* the admin route*/
 
 Route::get('/home', 'HomeController@adminHome')->name('adminhome');
+Route::get('/adminhome', 'HomeController@adminHome')->name('adminhome');
 
 // category
 Route::post('/create/event-category', 'PixCategoryController@create');
