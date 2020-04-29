@@ -60,12 +60,21 @@ class HomeController extends Controller
         return view('schoolFacility');
     }
 
-    public function gallery()
+   public function gallery()
     {
 
-        $pixes = Pix::paginate(15);
+        $pixes = PixCategory::orderBy('created_at','desc')->paginate(10);
 
         return view('gallery',compact('pixes'));
+    }
+
+
+    public function singleGallery($id)
+    {
+        $category = PixCategory::findOrFail($id);
+        $pixes = Pix::where('PixCategory_id',$id)->paginate(15);
+        return view('singlegallery', compact('category','pixes'));
+
     }
 
     public function earlyYears()

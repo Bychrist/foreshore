@@ -35,6 +35,7 @@ Route::get('/extra-curricular', 'HomeController@extraCurricular')->name('extraCu
 Route::get('/calendar', 'HomeController@calendar')->name('calendar');
 Route::get('/handbook', 'HomeController@handbook')->name('handbook');
 Route::get('/blog', 'HomeController@blog')->name('blog');
+Route::get('/gallery/{id}', 'HomeController@singleGallery')->name('singleGallery');
 
 /* the admin route*/
 
