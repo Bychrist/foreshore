@@ -77,11 +77,11 @@ class PixController extends Controller
 	   public function delete($id)
 	   {
 	   	   try {
+				 
 
-	   	   	  $deletePix = Pix::findOrFail($id);
- 
+					$deletePix = Pix::findOrFail($id);
 	   	   	 $deletePix->delete();
-	   	   	 $deletePix->save();
+	   	   	 //$deletePix->save();
 
 	   	   	 return redirect()->back()->with(["success"=>"Pix has been deleted successfully"]);
 	   	  
