@@ -40,7 +40,9 @@
                         	<div class="icon-box wow fadeIn" data-wow-delay="300ms">
                             	<span class="icon flaticon-web"></span>
                             </div>
-                            <div class="text">info@tfsikoyi.com <br> support@tfsikoyi.com</div>
+                            <div class="text">info@tfsikoyi.com <br> support@tfsikoyi.com <br><br>
+                        
+                         </div>
                         </div>
                     </div>
                     
@@ -50,7 +52,7 @@
                         	<div class="icon-box wow fadeIn" data-wow-delay="600ms">
                             	<span class="icon flaticon-smartphone"></span>
                             </div>
-                            <div class="text">08023121865  <br> 08176139340
+                            <div class="text">08023121865  <br> 08176139340 <br><br>
 </div>
                         </div>
                     </div>
@@ -74,7 +76,7 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" style="background:#ffca00;border-close:#ffca00;" class="btn btn-primary">
   </form>
 </div>
                        
@@ -93,7 +95,7 @@
 
 
   	    <!--Teachers Section-->
-  	    <section class="teachers-section no-padding-btm">
+  	    <section class="teachers-section no-padding-btm" style="margin-top:-300px">
   	    
   	        <div class="background-patten"></div>
   	    </section>

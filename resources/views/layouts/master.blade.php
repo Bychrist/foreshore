@@ -342,14 +342,19 @@ input[type=submit]:hover {
 	                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
 	                            	
 	                                <div class="footer-widget subscribe-widget">
+									
+									
+									  @if(Request::is('contact') !=  url('contact')  )
 	                                    <div class="footer-title">
 	                                    	<h2>Contact Us</h2>
 	                                    </div>
 	                                    <div class="widget-content">
 	                                        <div class="newsletter-form">
-	                                            <button href="{{url('/contact')}}" class="theme-btn btn-style-one">Contact Us</button>
+	                                            <a href="{{url('/contact')}}" class="theme-btn btn-style-one" style="text-transform:capitalize;text-align:center">Click here for more information </a>
 	                                        </div>
-	                                    </div>
+										</div>
+										
+										@endif
 	                                </div>
 	                                
 	                            </div>
