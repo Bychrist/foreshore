@@ -112,12 +112,12 @@
                                <div class="text">
                                	We believe that every child…
 
-                               	     * is an active learner
-                               	     * has a potential
-                               	     * is a sensitive, feeling and thinking individual who thrives in a
-                               	stimulating environment
-                               	     * deserves the best opportunity to benefit from a comprehensive Early
-                               	Childhood programme
+                               	    <li> * is an active learner </li>
+                               	    <li> * has a potential</li>
+                               	    <li> * is a sensitive, feeling and thinking individual who thrives in a
+                               	stimulating environment</li>
+                               	   <li>  * deserves the best opportunity to benefit from a comprehensive Early
+                               	Childhood programme</li>
                                </div>
                            </div>
                        </div>
