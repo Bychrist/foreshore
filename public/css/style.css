@@ -1141,10 +1141,10 @@ img{
 	height:100%;
 	display:block;
 	opacity:0.4;
-	background:-webkit-linear-gradient(left top, #e02d6e, #7475b4, #23aae8);
-	background:-ms-linear-gradient(left top, #e02d6e, #7475b4, #23aae8);
-	background:-o-linear-gradient(left top, #e02d6e, #7475b4, #23aae8);
-	background:-moz-linear-gradient(left top, #e02d6e, #7475b4, #23aae8);
+	background:-webkit-linear-gradient(left top, #ecc2d100, #afafc400, #23aae8);
+	background:-ms-linear-gradient(left top, #ecc2d100,  #afafc400, #23aae8);
+	background:-o-linear-gradient(left top, #ecc2d100,  #afafc400, #23aae8);
+	background:-moz-linear-gradient(left top, #ecc2d100,  #afafc400, #23aae8);
 }
 
 .main-slider .tp-dottedoverlay{
