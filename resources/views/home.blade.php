@@ -320,7 +320,9 @@
 										  			<center>	
 
 												
-															<iframe width="100%" height="450" src="https://rss.app/embed/v1/BcrJ06Gmti8KQt43" frameBorder="0"></iframe>
+													  <div style="max-height:460px; overflow-y:scroll" id="pixlee_container">
+													    <h3 style="font-size:14px;color:#666666;text-align:left">Instagram</h3>
+													  </div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'st0yQRqhU5QVvsXsyb3L'});Pixlee.addSimpleWidget({widgetId:'27010'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
 												
 										  			</center>
 										                   
