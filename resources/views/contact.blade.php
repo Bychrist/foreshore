@@ -30,7 +30,8 @@
                         	<div class="icon-box wow fadeIn" data-wow-delay="0ms">
                             	<span class="icon flaticon-location-pin"></span>
                             </div>
-                            <div class="text">OSBORNE FORESHORE ESTATE (PHASE 2). <br>  IKOYI, LAGOS</div>
+                            <div class="text">Plot 2, Block 6 Acacia
+                                Drive, Osborne Foreshore Estate (Phase 2), Ikoyi</div>
                         </div>
                     </div>
                     
@@ -40,7 +41,7 @@
                         	<div class="icon-box wow fadeIn" data-wow-delay="300ms">
                             	<span class="icon flaticon-web"></span>
                             </div>
-                            <div class="text">info@tfsikoyi.com <br> support@tfsikoyi.com <br><br>
+                            <div class="text">info@tfsikoyi.com <br> <br><br>
                         
                          </div>
                         </div>
@@ -74,7 +75,7 @@
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
 
     <input type="submit" value="Submit" style="background:#ffca00;border-close:#ffca00;" class="btn btn-primary">
   </form>

@@ -142,41 +142,41 @@ input[type=submit]:hover {
 
 	                                <li><a href="{{url('/')}}">Home</a></li>
 
-	                                <li class="current dropdown"><a href="#">About Us</a>
+	                                <li class="{{(Request()->is('about/*')) ? "current" : ''  }} dropdown"><a href="#">About Us</a>
 	                                    <ul>
 	                                        <li><a href="{{action('HomeController@whoweare')}}">Who We Are</a></li>
 	                                        <li><a href="{{action('HomeController@boardofdirectors')}}">Board of Directors</a></li>
 
 	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
 
-										<li><a href="{{url('gallery')}}">Gallery</a></li>
+										<li><a href="{{url('about/gallery')}}">Gallery</a></li>
 	                                        
 	                                    </ul>
 	                                </li>
-	                                <li class="dropdown"><a href="#">Academics</a>
+	                                <li class="{{(Request()->is('academics/*')) ? "current" : ''  }} dropdown"><a href="#">Academics</a>
 	                                    <ul>
-										<li><a href="{{url('/early-years')}}">Early Years</a></li>
-	                                        <li><a href="{{url('/primary')}}">Primary School</a></li>
-	                                        <li><a href="{{url('/extra-curricular')}}">Extracurricular Activities</a></li>
-										<li><a href="{{url('/calendar')}}">Calendar</a></li>
-	                                        <li><a href="{{url('/handbook')}}">Parents Handbook</a></li>
+										<li><a href="{{url('academics/early-years')}}">Early Years</a></li>
+	                                        <li><a href="{{url('academics/primary')}}">Primary School</a></li>
+	                                        <li><a href="{{url('academics/extra-curricular')}}">Extracurricular Activities</a></li>
+										<li><a href="{{url('academics/calendar')}}">Calendar</a></li>
+	                                        <li><a href="{{url('academics/handbook')}}">Parents Handbook</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li><a href="{{url('/virtual')}}">Virtual Tour</a></li>
+	                                <li class="{{(Request()->is('virtual')) ? "current" : ''  }} "><a href="{{url('/virtual')}}">Virtual Tour</a></li>
 	                            </ul>
 	                            <!--Right Nav-->
 
 	                            <ul class="navigation right-nav clearfix" >
-	                                  <li  class="dropdown"><a href="#">Facility</a>
+	                                  <li  class="{{(Request()->is('facility/*')) ? "current" : ''  }} dropdown"><a href="#">Facility</a>
 	                                      <ul>
 										  <li><a href="{{url('/facility/school-facility')}}">School Facilities</a></li>
 	                                          <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                       
 	                                      </ul>
 	                                  </li>
-									<li ><a href="{{url('/parents-portal')}}" title="parents' portal"> Portal</a></li>
-									<li><a href="{{url('/blog')}}">Blog</a></li>
-									<li ><a href="{{url('/contact')}}">Contact Us</a></li>
+									<li {{(Request()->is('parents-portal')) ? "current" : ''  }}  ><a href="{{url('/parents-portal')}}" title="parents' portal"> Portal</a></li>
+									<li {{(Request()->is('blog')) ? "current" : ''  }} ><a href="{{url('/blog')}}">Blog</a></li>
+									<li {{(Request()->is('contact')) ? "current" : ''  }} ><a href="{{url('contact')}}">Contact Us</a></li>
                                 </ul>
 	                        </div>
 	                    </nav>
@@ -225,28 +225,28 @@ input[type=submit]:hover {
 	                                        
 	                                  	
 
-	                                        <li><a href="{{url('gallery')}}">Gallery</a></li>
+	                                        <li><a href="{{url('about/gallery')}}">Gallery</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li class="dropdown"><a href="#">Academics</a>
+	                                <li class="{{Request::is('academics/*') ? 'current' : ''}} dropdown"><a href="#">Academics</a>
 	                                    <ul>
-	                                    	<li><a href="{{url('/early-years')}}">Early Years</a></li>
-										<li><a href="{{url('/primary')}}">Primary School</a></li>
-										<li><a href="{{url('/extra-curricular')}}">Extracurriculum Activities</a></li>
-	                                        <li><a href="{{url('/calendar')}}">Calendar</a></li>
-	                                        <li><a href="{{url('/handbook')}}">Parent Handbook</a></li>
+	                                    	<li><a href="{{url('academics/early-years')}}">Early Years</a></li>
+										<li><a href="{{url('academics/primary')}}">Primary School</a></li>
+										<li><a href="{{url('academics/extra-curricular')}}">Extracurriculum Activities</a></li>
+	                                        <li><a href="{{url('academics/calendar')}}">Calendar</a></li>
+	                                        <li><a href="{{url('academics/handbook')}}">Parent Handbook</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li class="{{Request::is('/virtual') ? 'current' : ''}}"><a href="{{url('/virtual')}}">Virtual Tour</a></li>
+	                                <li class="{{Request::is('virtual') ? 'current' : ''}}"><a href="{{url('virtual')}}">Virtual Tour</a></li>
 	                                <li  class="{{Request::is('facility/*') ? 'current' : ''}} dropdown"><a href="">Facility</a>
 	                                    <ul>
 										<li><a href="{{url('/facility/school-facility')}}">School Facilities</a></li>
 	                                        <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li><a href="{{url('/parents-portal')}}">Parent's Portal</a></li>
-	                                <li><a href="{{url('/blog')}}">Blog</a></li>
-	                                <li><a href="{{url('/contact')}}">Contact Us</a></li>
+	                                <li {{(Request()->is('parents-portal')) ? 'current' : ''  }} ><a href="{{url('/parents-portal')}}">Parent's Portal</a></li>
+	                                <li {{(Request()->is('blog')) ? "current" : ''  }} ><a href="{{url('/blog')}}">Blog</a></li>
+	                                <li {{(Request()->is('contact')) ? "current" : ''  }} ><a href="{{url('/contact')}}">Contact Us</a></li>
 	                            </ul>
 	                        </div>
 	                    </nav><!-- Main Menu End-->
@@ -286,7 +286,8 @@ input[type=submit]:hover {
 	                                        <ul class="social-links-two">
 	                                        	<li class="facebook"><a href="https://www.facebook.com/theforeshoreschoolikoyi/"><span class="fa fa-facebook"></span></a></li>
 	                                            <li class="twitter"><a href="https://twitter.com/tfsikoyi"><span class="fa fa-twitter"></span></a></li>
-	                                            <li class="instagram"><a href="https://instagram.com/tfsikoyi"><span class="fa fa-instagram"></span></a></li>
+												<li class="instagram"><a href="https://instagram.com/tfsikoyi"><span class="fa fa-instagram"></span></a></li>
+												<li class="youtube"><a href=""><span class="fa fa-youtube"></span></a></li>
 	                                             <li class="linkedin"><a href="https://www.linkedin.com/company/midland-digital-solutions/" target="_blank"><span class="fa fa-linkedin"></span></a></li> 
 	                                        </ul>
 										</div>

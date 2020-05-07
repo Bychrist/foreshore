@@ -23,7 +23,7 @@
        	           <div class="sec-title centered">
        	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
        	           	<h2>Early Years</h2>
-                     <div class="title">Foreshore Early Years</div>
+                     <div class="title">The Foreshore School Early Years</div>
        	             
        	            
        	           </div>
@@ -43,7 +43,7 @@
                		           <div class="sec-title ">
                		           
                		           	<h2 style="font-size: 20px;letter-spacing: 3px;">Crèche (3 - 17months)</h2>
-               	              <div class="title" style="font-size: 15px">Foreshore Early Years</div>
+               	              <div class="title" style="font-size: 15px">The Foreshore School Early Years</div>
                		             
                		            
                		           </div>
@@ -60,15 +60,7 @@
                         </div>
                     </div>
                        
-                       <!--Teacher Block-->
-                   	<div class="teacher-block">
-                       	<div class="inner-box reduce">
-                       
-                               	<img src="{{asset('images/resource/creche3.png')}}" alt="" />
-                          
-                              
-                        </div>
-                    </div>
+                  
                        
                        <!--Teacher Block-->
                  	<div class="teacher-block ">
@@ -80,26 +72,8 @@
                       </div>
                   </div>
                        
-                       <!--Teacher Block-->
-                   	<div class="teacher-block">
-                   	    	<div class="inner-box reduce">
-                   	    
-                   	            <img src="{{asset('images/resource/creche2.png')}}" alt="" />
-                   	       
-                   	           
-                   	     </div>
-                   	 </div>
-                       
-                       <!--Teacher Block-->
-                   	<div class="teacher-block">
-                       	<div class="inner-box reduce">
-                       
-             	<img src="{{asset('images/resource/creche4.png')}}" alt="" />
-                          
-                              
-                        </div>
-                    </div>
-                       
+                 
+           
                        <!--Teacher Block-->
                   	<div class="teacher-block">
                       	<div class="inner-box reduce">
@@ -608,7 +582,7 @@
 
 
 	        <center><h3>
-“Make the “TFS choice” and watch your child blossom.”</h3></center>
+Make the “TFS choice” and watch your child blossom.</h3></center>
 	        
 	          
 	           

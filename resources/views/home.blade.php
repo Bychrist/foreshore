@@ -154,9 +154,9 @@
   	        	<!--Sec Title-->
   	            <div class="sec-title centered">
   	            	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
-  	            	<h2>Welcome To The Foreshore School</h2>
+  	            	<h2>Welcome To The Foreshore School.</h2>
   	                <div class="title">About Our  School</div>
-  	                <div class="text">We provide a clean, safe and tender loving environment that fosters each child’s unique potential</div>
+  	                <div class="text">We provide a clean, safe and tender loving environment that fosters each child’s unique potential.</div>
   	            </div>
   	            <!--End Sec Title-->
   				<div class="row clearfix">
@@ -169,7 +169,7 @@
   	                                <span class="icon flaticon-book"></span>
   	                            </div>
   	                            <h3><a href="features.html">Funny and Happy</a></h3>
-  	                            <div class="text">We have a group of teachers who really love children and enjoy every moment spent with them</div>
+  	                            <div class="text">We have a group of teachers who really love children and enjoy every moment spent with them.</div>
   	                        </div>
   	                    </div>
   	                    
@@ -205,7 +205,7 @@
   	                                <span class="icon flaticon-graduation-cap"></span>
   	                            </div>
   	                            <h3><a href="features.html">Fully Equiped</a></h3>
-  	                            <div class="text">We have Bright, colourful and stimulating environment that promotes learning interest for children</div>
+  	                            <div class="text">We have Bright, colourful and stimulating environment that promotes learning interest for children.</div>
   	                        </div>
   	                    </div>
   	                    

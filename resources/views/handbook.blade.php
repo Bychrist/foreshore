@@ -9,7 +9,7 @@
                    <h1>Academics</h1>
                    <ul class="bread-crumb">
                    	<li><a href="{{action('HomeController@index')}}">Home</a></li>
-                       <li>Parent's Handbook</li>
+                       <li>Parents Handbook</li>
                    </ul>
                </div>
            </div>

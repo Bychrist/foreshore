@@ -27,13 +27,13 @@ Route::get('/facility/school-facility', 'HomeController@schoolFacility')->name('
 Route::get('/parents-portal', 'HomeController@parentsPortal')->name('portal');
 Route::get('/about/leadership-team', 'HomeController@leadershipteam')->name('leadershipteam');
 Route::get('/about/board-of-directors', 'HomeController@boardofdirectors')->name('boardofdirectors');
-Route::get('/gallery', 'HomeController@gallery')->name('gallery');
-Route::get('/early-years', 'HomeController@earlyYears')->name('earlyYears');
+Route::get('about/gallery', 'HomeController@gallery')->name('gallery');
+Route::get('academics/early-years', 'HomeController@earlyYears')->name('earlyYears');
 Route::get('/contact', 'HomeController@contact')->name('contact');
-Route::get('/primary', 'HomeController@primary')->name('primary');
-Route::get('/extra-curricular', 'HomeController@extraCurricular')->name('extraCurricular');
-Route::get('/calendar', 'HomeController@calendar')->name('calendar');
-Route::get('/handbook', 'HomeController@handbook')->name('handbook');
+Route::get('academics/primary', 'HomeController@primary')->name('primary');
+Route::get('academics/extra-curricular', 'HomeController@extraCurricular')->name('extraCurricular');
+Route::get('academics/calendar', 'HomeController@calendar')->name('calendar');
+Route::get('academics/handbook', 'HomeController@handbook')->name('handbook');
 Route::get('/blog', 'HomeController@blog')->name('blog');
 Route::get('/gallery/{id}', 'HomeController@singleGallery')->name('singleGallery');
 
