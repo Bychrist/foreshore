@@ -35,7 +35,7 @@ class PixController extends Controller
 
 
 			 		 $this->validate($request,[
-			 	           'title'=>'required|mimes:jpeg,jpg,png|between:1, 600',
+			 	           'title'=>'required|mimes:jpeg,jpg,png|between:1, 6000',
 			 	           'PixCategory_id' => 'required '
 			 	       ]);
 
