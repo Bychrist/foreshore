@@ -156,7 +156,7 @@
   	            	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
   	            	<h2>Welcome To The Foreshore School.</h2>
   	                <div class="title">About Our  School</div>
-  	                <div class="text">We provide a clean, safe and tender loving environment that fosters each child’s unique potential.</div>
+  	                <div class="text">We provide a clean, safe and Tenderloving<sup>TM</sup> environment that fosters each child’s unique potential.</div>
   	            </div>
   	            <!--End Sec Title-->
   				<div class="row clearfix">
