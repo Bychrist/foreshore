@@ -42,7 +42,7 @@
                                      <div class="sec-title" style="padding-left:20px;margin-bottom:-20px"    >
                                         <h2 style=" font-size:20px;">{{$mainPix->category_name}} &nbsp;&nbsp;   <a href="{{url('gallery')}}/{{$mainPix->id}}" style="font-size:12px">View More Images</a></h2>
                                          <div style="margin-top:-10px; font-size:15px; " class="title">
-                                         {{$mainPix->category_name}}  to remember 
+                                      
                                          </div>
                                       </div>
                                   

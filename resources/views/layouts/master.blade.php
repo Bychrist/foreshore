@@ -174,7 +174,7 @@ input[type=submit]:hover {
 	                                       
 	                                      </ul>
 	                                  </li>
-									<li {{(Request()->is('parents-portal')) ? "current" : ''  }}  ><a href="{{url('/parents-portal')}}" title="parents' portal"> Portal</a></li>
+									<li {{(Request()->is('parents-portal')) ? "current" : ''  }}  ><a href="{{url('/parents-portal')}}" title="parents portal"> Portal</a></li>
 									<li {{(Request()->is('blog')) ? "current" : ''  }} ><a href="{{url('/blog')}}">Blog</a></li>
 									<li {{(Request()->is('contact')) ? "current" : ''  }} ><a href="{{url('contact')}}">Contact Us</a></li>
                                 </ul>
@@ -244,7 +244,7 @@ input[type=submit]:hover {
 	                                        <li><a href="{{url('/facility/development')}}">Facility Development</a></li>
 	                                    </ul>
 	                                </li>
-	                                <li {{(Request()->is('parents-portal')) ? 'current' : ''  }} ><a href="{{url('/parents-portal')}}">Parent's Portal</a></li>
+	                                <li {{(Request()->is('parents-portal')) ? 'current' : ''  }} ><a href="{{url('/parents-portal')}}">Parents Portal</a></li>
 	                                <li {{(Request()->is('blog')) ? "current" : ''  }} ><a href="{{url('/blog')}}">Blog</a></li>
 	                                <li {{(Request()->is('contact')) ? "current" : ''  }} ><a href="{{url('/contact')}}">Contact Us</a></li>
 	                            </ul>

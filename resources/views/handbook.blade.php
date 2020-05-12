@@ -23,7 +23,7 @@
                       
                       <div class="sec-title centered">
                         <div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
-                        <h2 style="margin-bottom: 50px;">Parent's Handbook</h2>
+                        <h2 style="margin-bottom: 50px;">Parents Handbook</h2>
                          <div style="margin-top:-50px " class="title">Foreshore Parent's Handbook</div>
                       </div>
 

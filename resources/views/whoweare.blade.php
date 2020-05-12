@@ -96,7 +96,7 @@
                                    <span class="icon flaticon-paint-palette-and-brush"></span>
                                </div>
                                <h3>Our Mission</h3>
-	  	                   <div class="text">We provide a clean, safe and TenderlovingTM environment that fosters
+	  	                   <div class="text">We provide a clean, safe and Tenderloving<sup>TM</sup> environment that fosters
 							each child’s unique potential, whilst nurturing personal and
 							professional growth in our staff team and empowering our community.</div>
                            </div>
@@ -125,17 +125,18 @@
                    </div>
                
                    <div class="image-column col-md-4 col-sm-12 col-xs-12">
-                       <figure class="image wow fadeInUp">
-                            <img src="{{asset('images/resource/teachersjump.png')}}" alt="" />
-                       </figure>
+				    <br>
+                     
                        <br>
-                       <br>
+					   <br>
                        <br>
                        <br>
                        <br><br>
-                       <figure class="image wow fadeInUp">
-                           <img src="{{asset('images/resource/teachersjump.png')}}" alt="" />
+                       <figure class="image wow fadeInUp bounce">
+                            <img src="{{asset('images/resource/teachersjump.png')}}" alt="" />
                        </figure>
+                      
+                      
                    </div>
                    
                </div>

@@ -304,7 +304,7 @@
     				    	<!--Image Column-->
     				        <div class="image-column">
     				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/DiningRoom1.jpeg')}}" alt="" /><
+    				                <img style="height: 250px" src="{{asset('images/facilities/DiningRoom1.jpeg')}}" alt="" />
     				                <span class="category">Dinning</span>
     				                <div class="overlay-layer">
     				                	
