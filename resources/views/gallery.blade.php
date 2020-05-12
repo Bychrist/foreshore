@@ -35,12 +35,14 @@
                                           Events to remember 
                                          </div>
                                       </div>
+
                             
+                        <div class="row" style="padding-left:50px;">
                             @foreach($pixes as $mainPix)
-                         <center> {!! $pixes->render("pagination::bootstrap-4") !!}</center>
-                                  <div class="container" style="background:transparent;box-shadow:-7px -6px 52px -16px rgba(204,204,204,1);box-radius:10px">
+                        
+                                  <div class="container col-md-4" style="background:transparent;box-shadow:-7px -6px 52px -16px rgba(204,204,204,1);box-radius:10px">
                                      <div class="sec-title" style="padding-left:20px;margin-bottom:-20px"    >
-                                        <h2 style=" font-size:20px;">{{$mainPix->category_name}} &nbsp;&nbsp;   <a href="{{url('gallery')}}/{{$mainPix->id}}" style="font-size:12px">View More Images</a></h2>
+                                        <h2 style=" font-size:20px;">{{$mainPix->category_name}} &nbsp;&nbsp;   <a href="{{url('gallery')}}/{{$mainPix->id}}" style="font-size:12px;" class="pull-right">View  Images</a></h2>
                                          <div style="margin-top:-10px; font-size:15px; " class="title">
                                       
                                          </div>
@@ -48,7 +50,7 @@
                                   
                               
                                                                  
-                                         @foreach( $mainPix->Pixes->slice(0, 3) as $pic )
+                                         {{-- @foreach( $mainPix->Pixes->slice(0, 3) as $pic )
                                               
 
                                      
@@ -69,15 +71,18 @@
 
                                             
                                              
-                                            @endforeach
+                                            @endforeach --}}
                                        
                                             
                                             
 
                                       </div>
                                       @endforeach
-                             
+                                      <br>
+                                  <center> {!! $pixes->render("pagination::bootstrap-4") !!}</center>
                                       
+                             
+                              </div>        
                               </section>
 
    <section class="welcome-section" style="margin-bottom: -200px;margin-top:100px;background:transparent">
