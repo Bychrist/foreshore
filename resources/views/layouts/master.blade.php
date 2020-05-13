@@ -286,7 +286,7 @@ input[type=submit]:hover {
 	                                        <ul class="social-links-two">
 	                                        	<li class="facebook"><a href="https://www.facebook.com/theforeshoreschoolikoyi/"><span class="fa fa-facebook"></span></a></li>
 	                                            <li class="twitter"><a href="https://twitter.com/tfsikoyi"><span class="fa fa-twitter"></span></a></li>
-												<li class="instagram"><a href="https://instagram.com/tfsikoyi"><span class="fa fa-instagram"></span></a></li>
+												<li class="instagram"><a href="https://instagram.com/tfsikoyi"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
 												<li class="youtube"><a href="https://www.youtube.com/channel/UCtrONUezywQsicHsAHDsnHg/videos"><span class="fa fa-youtube"></span></a></li>
 	                                             <li class="linkedin"><a href="https://www.linkedin.com/company/midland-digital-solutions/" target="_blank"><span class="fa fa-linkedin"></span></a></li> 
 	                                        </ul>

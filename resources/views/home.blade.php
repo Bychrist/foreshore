@@ -180,7 +180,7 @@
   	                                <span class="icon flaticon-football"></span>
   	                            </div>
   	                            <h3><a href="features.html">Fulfill With Love</a></h3>
-  	                            <div class="text"> we are committed to providing a fun-filled, rewarding programme that balances each child’s intellectual and emotional needs.</div>
+  	                            <div class="text"> We are committed to providing a fun-filled, rewarding programme that balances each child’s intellectual and emotional needs.</div>
   	                        </div>
   	                    </div>
   	                    

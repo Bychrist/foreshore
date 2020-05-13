@@ -1028,10 +1028,10 @@ img{
 }
 
 .social-links-two li.instagram{
-	background-color:#4d6bab;
-	-webkit-box-shadow:0px 0px 0px 4px rgba(116, 10, 143, 0.5);
-	-ms-box-shadow:0px 0px 0px 4px rgba(234,96,96,0.50);
-	box-shadow:0px 0px 0px 4px rgba(234,96,96,0.50);
+	background-color: fuchsia;
+	-webkit-box-shadow:0px 0px 0px 4px rgba(233, 89, 80);
+	-ms-box-shadow:0px 0px 0px 4px rgba(96, 128, 234, 0.5);
+	box-shadow:0px 0px 0px 4px rgba(71, 23, 202, 0.5);
 }
 
 .social-links-two li.linkedin{

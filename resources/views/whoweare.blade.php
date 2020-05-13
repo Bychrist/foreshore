@@ -29,7 +29,7 @@
   	           
   	               <div class="text">The Foreshore School (TFS) is crèche, preschool, nursery and primary school located in Osborne Foreshore Estate (Phase 2), Ikoyi, Lagos. It is a British curriculum school, which is committed to providing a fun-filled and rewarding programme that balances each child's intellectual, physical, social, creative and emotional needs.
 
-					TFS was established in January 2007 as Tenderloving Childcare (TLC), a crèche, preschool and nursery school. After a few years, the school grew and the demand for a primary school emerged. As a result, the primary school tier was established in 2013 and in line with this development, the name was changed to Tenderloving School (TLS).
+					TFS was established in January 2007 as <sup> Tenderloving</sup> Childcare (TLC), a crèche, preschool and nursery school. After a few years, the school grew and the demand for a primary school emerged. As a result, the primary school tier was established in 2013 and in line with this development, the name was changed to Tenderloving School (TLS).
 
 					Over the recent years, the school's brand continued to grow and its current name The Foreshore School was birthed (in December 2016).</div>
   	            
