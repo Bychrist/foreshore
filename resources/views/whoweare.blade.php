@@ -49,7 +49,7 @@
                        <!--Feature Block-->
                        <div class="feature-block">
                            <div class="inner-box">
-                               <div class="icon-box">
+                               <div class="icon-box" style="background:#840c00">
                                    <span class="icon flaticon-book"></span>
                                </div>
                                <h3>Our Vision</h3>
@@ -68,7 +68,7 @@
                        <!--Feature Block-->
                        <div class="feature-block">
                            <div class="inner-box">
-                               <div class="icon-box">
+                               <div class="icon-box" style="background:#ffa800">
                                    <span class="icon flaticon-football"></span>
                                </div>
                                <h3>Our Core Values</h3>
@@ -105,7 +105,7 @@
                        <!--Feature Block Two-->
                        <div class="feature-block-two">
                            <div class="inner-box">
-                               <div class="icon-box">
+                               <div class="icon-box" style="background:#840c00">
                                    <span class="icon flaticon-graduation-cap"></span>
                                </div>
                                <h3>Our Philosophy</h3>
@@ -218,7 +218,7 @@
 			                    	        <h3>Nursery</h3>
 			                    	       <div class="post-date">Classes</div>
 										   <h3>Nursery 1 and Nursery
-											2/Reception</h3>
+											2 <br>/Reception</h3>
 									
 			                    	      
 			                    	    </div>

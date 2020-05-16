@@ -120,7 +120,7 @@ input[type=submit]:hover {
 	        	<div class="auto-container" >
 	                	
 	                <div class="logo-outer" >
-					<div class="logo" ><a href="{{url('/')}}"><img  src="{{asset('images/logo.png')}}" alt="" title=""></a></div>
+					<div class="logo" ><a href="{{url('/')}}"><img   src="{{asset('images/logo.jpg')}}" alt="" title=""></a></div>
 	                </div>
 	                    
 	                <div class="nav-outer clearfix">
@@ -192,7 +192,7 @@ input[type=submit]:hover {
 	        	<div class="auto-container clearfix">
 	            	<!--Logo-->
 	            	<div class="logo pull-left">
-	                	<a href="" class="img-responsive"><img src="{{asset('images/logo-small.png')}}" alt="" title=""></a>
+	                	<a href="{{url('/')}}" class="img-responsive"><img src="{{asset('images/logo-small.png')}}" style alt="" title=""></a>
 	                </div>
 	                
 	                <!--Right Col-->
