@@ -165,10 +165,10 @@
   	                    <!--Feature Block-->
   	                    <div class="feature-block">
   	                        <div class="inner-box">
-  	                            <div class="icon-box">
-  	                                <span class="icon flaticon-book"></span>
+  	                            <div class="icon-box" style="background:#840c00">
+  	                                <span  class="icon flaticon-book"></span>
   	                            </div>
-  	                            <h3><a href="features.html">Funny and Happy</a></h3>
+  	                            <h3><a>Funny and Happy</a></h3>
   	                            <div class="text">We have a group of teachers who really love children and enjoy every moment spent with them.</div>
   	                        </div>
   	                    </div>
@@ -176,7 +176,7 @@
   	                    <!--Feature Block-->
   	                    <div class="feature-block">
   	                        <div class="inner-box">
-  	                            <div class="icon-box">
+  	                            <div class="icon-box" style="background:#ffa800">
   	                                <span class="icon flaticon-football"></span>
   	                            </div>
   	                            <h3><a href="features.html">Fulfill With Love</a></h3>
@@ -201,7 +201,7 @@
   	                    <!--Feature Block Two-->
   	                    <div class="feature-block-two">
   	                        <div class="inner-box">
-  	                            <div class="icon-box">
+  	                            <div class="icon-box" style="background:#840c00">
   	                                <span class="icon flaticon-graduation-cap"></span>
   	                            </div>
   	                            <h3><a href="features.html">Fully Equiped</a></h3>

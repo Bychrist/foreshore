@@ -9,7 +9,7 @@
                    <h1>Academics</h1>
                    <ul class="bread-crumb">
                    	<li><a href="{{action('HomeController@index')}}">Home</a></li>
-                       <li>Extra Curricular Activities</li>
+                       <li>Extracurricular Activities</li>
                    </ul>
                </div>
            </div>
@@ -22,8 +22,8 @@
        	       	<!--Sec Title-->
        	           <div class="sec-title centered">
        	           	<div class="title-icon"><img src="{{asset('images/icons/sec-title-icon-1.png')}}" alt="" /></div>
-       	           	<h2>Extra Curricular Activities</h2>
-                     <div class="title">Extra Curricular Activities in Foreshore</div>
+       	           	<h2>Extracurricular Activities</h2>
+                     <div class="title">Extracurricular Activities in Foreshore</div>
        	             
        	            
        	           </div>
@@ -37,7 +37,7 @@
        <div style="width: 100%; padding-bottom: 100px; padding-left: 50px; padding-right: 50px">
 	<center>
 		<div style="width: 80%; padding-top: 100px; text-align:left">	
-			  <p style="padding-top: 100px">In addition to the core curriculum subject areas, children at The Foreshore School also have the opportunity to build physical, cognitive, social and many other skills by participating in a wide range of extra-curricular activities including ballet, chess, cub scouts and brownies, swimming, taekwondo, robotics, football, etc.</p>
+			  <p style="padding-top: 100px">In addition to the core curriculum subject areas, children at The Foreshore School also have the opportunity to build physical, cognitive, social and many other skills by participating in a wide range of extracurricular activities including ballet, chess, cub scouts and brownies, swimming, taekwondo, robotics, football, etc.</p>
               <hr>
                <div id="Container" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
               <iframe width="100%" height="100%" data-aos="zoom-out" src="https://www.youtube.com/embed/7k9rhtgR0eM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute; left: 0"></iframe>
