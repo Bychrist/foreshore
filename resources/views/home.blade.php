@@ -179,7 +179,7 @@
   	                            <div class="icon-box" style="background:#ffa800">
   	                                <span class="icon flaticon-football"></span>
   	                            </div>
-  	                            <h3><a href="features.html">Fulfill With Love</a></h3>
+  	                            <h3><a >Fulfill With Love</a></h3>
   	                            <div class="text"> we are committed to providing a fun-filled, rewarding programme that balances each child’s intellectual and emotional needs.</div>
   	                        </div>
   	                    </div>
@@ -193,7 +193,7 @@
   	                            <div class="icon-box">
   	                                <span class="icon flaticon-paint-palette-and-brush"></span>
   	                            </div>
-  	                            <h3><a href="features.html">Professional Teaching</a></h3>
+  	                            <h3><a >Professional Teaching</a></h3>
   	                            <div class="text">We maintain  great teaching ethics within and beyond the forewalls of the school.</div>
   	                        </div>
   	                    </div>
@@ -204,7 +204,7 @@
   	                            <div class="icon-box" style="background:#840c00">
   	                                <span class="icon flaticon-graduation-cap"></span>
   	                            </div>
-  	                            <h3><a href="features.html">Fully Equiped</a></h3>
+  	                            <h3><a>Fully Equiped</a></h3>
   	                            <div class="text">We have Bright, colourful and stimulating environment that promotes learning interest for children.</div>
   	                        </div>
   	                    </div>
@@ -213,7 +213,8 @@
   	            
   	                <div class="image-column col-md-4 col-sm-12 col-xs-12">
   	                    <figure class="image wow fadeInUp">
-  	                        <img src="{{asset('images/resource/welcome-2.png')}}" alt="" />
+						   <br>
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/Evbk1I40wvM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   	                    </figure>
   	                </div>
   	                
