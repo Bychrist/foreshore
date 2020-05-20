@@ -149,7 +149,7 @@ input[type=submit]:hover {
 
 	                                        <li><a href="{{action('HomeController@leadershipteam')}}">Leadership Team</a></li>
 
-										<li><a href="{{url('about/gallery')}}">Gallery</a></li>
+										{{-- <li><a href="{{url('about/gallery')}}">Gallery</a></li> --}}
 	                                        
 	                                    </ul>
 	                                </li>
@@ -225,7 +225,7 @@ input[type=submit]:hover {
 	                                        
 	                                  	
 
-	                                        <li><a href="{{url('about/gallery')}}">Gallery</a></li>
+	                                        {{-- <li><a href="{{url('about/gallery')}}">Gallery</a></li> --}}
 	                                    </ul>
 	                                </li>
 	                                <li class="{{Request::is('academics/*') ? 'current' : ''}} dropdown"><a href="#">Academics</a>

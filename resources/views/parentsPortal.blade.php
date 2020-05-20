@@ -3,7 +3,7 @@
 @section('content')
 
        <!--Page Title-->
-       <section class="page-title" style="background-image:url({{asset('images/background/5.jpg')}});">
+       <section class="page-title" style="background-image:url({{asset('images/facilities/Library.JPG')}});">
        	<div class="auto-container">
            	<div class="inner-box">
                    <h1>Parents Portal</h1>

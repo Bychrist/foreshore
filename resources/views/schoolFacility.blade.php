@@ -3,7 +3,7 @@
 @section('content')
 
        <!--Page Title-->
-       <section class="page-title" style="background-image:url({{asset('images/background/5.jpg')}});">
+       <section class="page-title" style="background-image:url({{asset('images/facilities/Library.JPG')}});">
        	<div class="auto-container">
            	<div class="inner-box">
                    <h1>Facility</h1>
@@ -86,7 +86,7 @@
 	                        <div class="image-column">
 	                            <div class="image">
 	                               <img src="{{asset('images/facilities/Classroom2.jpeg')}}" alt="" />
-	                                <span class="category">stories</span>
+	                                <span class="category">Class</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -94,7 +94,171 @@
 	                        </div>
 	                     
 	                    </div>
-	                </div>
+					</div>
+					
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Classroom3.jpeg')}}" alt="" />
+	                                <span class="category">Class</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Classroom1.jpeg')}}" alt="" />
+	                                <span class="category">Class</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Classroom4.jpeg')}}" alt="" />
+	                                <span class="category">Class</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Creche2.jpg')}}" alt="" />
+	                                <span class="category">Creche</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Creche3.jpg')}}" alt="" />
+	                                <span class="category">Creche</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Creche4.JPG')}}" alt="" />
+	                                <span class="category">Creche</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/DiningRoom1.jpeg')}}" alt="" />
+	                                <span class="category">Dining</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/DinningRoom2.jpg')}}" alt="" />
+	                                <span class="category">Creche</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/Football.jpeg')}}" alt="" />
+	                                <span class="category">Football</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+					
+					
 	                
 	                <!--News Style Two-->
 	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
