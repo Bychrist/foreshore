@@ -176,7 +176,7 @@
 
 
         <!--Teachers Section-->
-           <section class="teachers-section " style="margin-top: 100px">
+           <section class="teachers-section preschool " style="margin-top: 100px">
            	<div class="auto-container">
                	<!--Sec Title-->
                		           <div class="sec-title ">
