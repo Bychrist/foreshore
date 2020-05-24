@@ -82,61 +82,7 @@
 						</li>
 						
 
-						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('images/main-slider/image-2.jpg')}}"  data-saveperformance="off"  data-title="Awesome Title Here">
-	                    <img src="{{asset('images/facilities/SchoolBuilding1.jpeg')}}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-	                    
-	                    <div class="tp-caption sfl sfb tp-resizeme"
-	                    data-x="left" data-hoffset="450"
-	                    data-y="center" data-voffset="-140"
-	                    data-speed="1500"
-	                    data-start="500"
-	                    data-easing="easeOutExpo"
-	                    data-splitin="none"
-	                    data-splitout="none"
-	                    data-elementdelay="0.01"
-	                    data-endelementdelay="0.3"
-	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"></div>
-	                    
-	                    <div class="tp-caption sfl sfb tp-resizeme"
-	                    data-x="left" data-hoffset="450"
-	                    data-y="center" data-voffset="-40"
-	                    data-speed="1500"
-	                    data-start="1000"
-	                    data-easing="easeOutExpo"
-	                    data-splitin="none"
-	                    data-splitout="none"
-	                    data-elementdelay="0.01"
-	                    data-endelementdelay="0.3"
-	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"></div>
-	                    
-	                    <div class="tp-caption sfl sfb tp-resizeme"
-	                    data-x="left" data-hoffset="450"
-	                    data-y="center" data-voffset="70"
-	                    data-speed="1500"
-	                    data-start="1500"
-	                    data-easing="easeOutExpo"
-	                    data-splitin="none"
-	                    data-splitout="none"
-	                    data-elementdelay="0.01"
-	                    data-endelementdelay="0.3"
-	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"></div>
-	                    
-	                    <div class="tp-caption sfl sfb tp-resizeme"
-	                    data-x="left" data-hoffset="450"
-	                    data-y="center" data-voffset="150"
-	                    data-speed="1500"
-	                    data-start="2000"
-	                    data-easing="easeOutExpo"
-	                    data-splitin="none"
-	                    data-splitout="none"
-	                    data-elementdelay="0.01"
-	                    data-endelementdelay="0.3"
-	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"></div>                    
-						</li>
+						
 	                    
 	                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('images/main-slider/image-2.jpg')}}"  data-saveperformance="off"  data-title="Awesome Title Here">
 	                    <img src="{{asset('images/facilities/ASignificantBeginning.JPG')}}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
@@ -194,6 +140,62 @@
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
 	                    data-endeasing="Power4.easeIn"><a href="{{url('/contact')}}" class="theme-btn btn-style-one">Let’s Go</a>&ensp; &ensp;<a href="{{url('/contact')}}" class="theme-btn btn-style-two">Read more </a></div>                    
+						</li>
+
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('images/main-slider/image-2.jpg')}}"  data-saveperformance="off"  data-title="Awesome Title Here">
+	                    <img src="{{asset('images/facilities/SchoolBuilding1.jpeg')}}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+	                    
+	                    <div class="tp-caption sfl sfb tp-resizeme"
+	                    data-x="left" data-hoffset="450"
+	                    data-y="center" data-voffset="-140"
+	                    data-speed="1500"
+	                    data-start="500"
+	                    data-easing="easeOutExpo"
+	                    data-splitin="none"
+	                    data-splitout="none"
+	                    data-elementdelay="0.01"
+	                    data-endelementdelay="0.3"
+	                    data-endspeed="1200"
+	                    data-endeasing="Power4.easeIn"></div>
+	                    
+	                    <div class="tp-caption sfl sfb tp-resizeme"
+	                    data-x="left" data-hoffset="450"
+	                    data-y="center" data-voffset="-40"
+	                    data-speed="1500"
+	                    data-start="1000"
+	                    data-easing="easeOutExpo"
+	                    data-splitin="none"
+	                    data-splitout="none"
+	                    data-elementdelay="0.01"
+	                    data-endelementdelay="0.3"
+	                    data-endspeed="1200"
+	                    data-endeasing="Power4.easeIn"></div>
+	                    
+	                    <div class="tp-caption sfl sfb tp-resizeme"
+	                    data-x="left" data-hoffset="450"
+	                    data-y="center" data-voffset="70"
+	                    data-speed="1500"
+	                    data-start="1500"
+	                    data-easing="easeOutExpo"
+	                    data-splitin="none"
+	                    data-splitout="none"
+	                    data-elementdelay="0.01"
+	                    data-endelementdelay="0.3"
+	                    data-endspeed="1200"
+	                    data-endeasing="Power4.easeIn"></div>
+	                    
+	                    <div class="tp-caption sfl sfb tp-resizeme"
+	                    data-x="left" data-hoffset="450"
+	                    data-y="center" data-voffset="150"
+	                    data-speed="1500"
+	                    data-start="2000"
+	                    data-easing="easeOutExpo"
+	                    data-splitin="none"
+	                    data-splitout="none"
+	                    data-elementdelay="0.01"
+	                    data-endelementdelay="0.3"
+	                    data-endspeed="1200"
+	                    data-endeasing="Power4.easeIn"></div>                    
 						</li>
 						
 
