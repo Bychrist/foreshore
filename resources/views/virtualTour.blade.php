@@ -3,7 +3,7 @@
 @section('content')
 
        <!--Page Title-->
-       <section class="page-title" style="background-image:url({{asset('images/facilities/Library.JPG')}});">
+       <section class="page-title" style="background-image:url({{asset('images/facilities/Playground_Random.jpg')}});">
        	<div class="auto-container">
            	<div class="inner-box">
                    <h1>Virtual Tour</h1>

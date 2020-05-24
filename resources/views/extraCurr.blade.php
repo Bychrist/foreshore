@@ -3,7 +3,7 @@
 @section('content')
 
        <!--Page Title-->
-       <section class="page-title" style="background-image:url({{asset('images/facilities/Library.JPG')}});">
+       <section class="page-title" style="background-image:url({{asset('images/facilities/Playground_Random.jpg')}});">
        	<div class="auto-container">
            	<div class="inner-box">
                    <h1>Academics</h1>
@@ -71,6 +71,39 @@
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img src="{{asset('images/extra/cHESS-ROOM-1-300x200.jpg')}}" width="100%" alt="img"></a>
+						</div>
+						</div>
+						</div>
+                        </li>
+						</ul>
+
+						<hr>
+
+						<ul id="mixit-container" class="row">
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img src="{{asset('images/facilities/Robotics.jpeg')}}" width="100%" alt="img"></a>
+						</div>
+						</div>
+						</div>
+                        </li>	
+						<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img src="{{asset('images/facilities/Music1.JPG')}}" width="100%" alt="img"></a>
+						</div>
+						</div>
+						</div>
+                        </li>
+							<li class="col-md-4 col-sm-6 col-xs-12 mix lab">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img src="{{asset('images/facilities/Music3.JPG')}}" width="100%" alt="img"></a>
 						</div>
 						</div>
 						</div>

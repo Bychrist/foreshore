@@ -3,7 +3,7 @@
 @section('content')
 
        <!--Page Title-->
-       <section class="page-title" style="background-image:url({{asset('images/facilities/Library.JPG')}});">
+       <section class="page-title" style="background-image:url({{asset('images/facilities/SchoolBuilding1.jpeg')}});">
        	<div class="auto-container">
            	<div class="inner-box">
                    <h1>Facility</h1>
@@ -51,8 +51,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                                <img src="{{asset('images/facilities/Classroom5.jpeg')}}" alt="" />
-	                                <span class="category">Classroom</span>
+	                                <img src="{{asset('images/facilities/Creche3.jpg')}}" alt="" />
+	                                <span class="category">Creche</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -68,8 +68,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                                <img src="{{asset('images/facilities/Classroom4.jpeg')}}" alt="" />
-	                                <span class="category">Classroom</span>
+	                                <img src="{{asset('images/facilities/Classroom10.JPG')}}" alt="" />
+	                                <span class="category">Preschool Classroom</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -85,8 +85,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Classroom2.jpeg')}}" alt="" />
-	                                <span class="category">Classroom</span>
+	                               <img src="{{asset('images/facilities/Classroom9.JPG')}}" alt="" />
+	                                <span class="category">Nursery Classroom</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -102,8 +102,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Classroom3.jpeg')}}" alt="" />
-	                                <span class="category">Classroom</span>
+	                               <img src="{{asset('images/facilities/Classroom11.JPG')}}" alt="" />
+	                                <span class="category">Primary Classroom</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -119,26 +119,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Classroom1.jpeg')}}" alt="" />
-	                                <span class="category">Classroom</span>
-	                                <div class="overlay-layer">
-	                                	<span class="icon flaticon-unlink"></span>
-	                                </div>
-	                            </div>
-	                        </div>
-	                     
-	                    </div>
-					</div>
-
-
-					<!--News Style Two-->
-	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-	                	<div class="inner-box">
-	                    	<!--Image Column-->
-	                        <div class="image-column">
-	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Classroom4.jpeg')}}" alt="" />
-	                                <span class="category">Classroom</span>
+	                               <img src="{{asset('images/facilities/Classroom8.JPG')}}" alt="" />
+	                                <span class="category">Primary  Classroom</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -155,8 +137,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Creche2.jpg')}}" alt="" />
-	                                <span class="category">Creche</span>
+	                               <img src="{{asset('images/facilities/MusicRoom.jpeg')}}" alt="" height="250px"/>
+	                                <span class="category">Music Room</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -173,8 +155,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Creche3.jpg')}}" alt="" />
-	                                <span class="category">Creche</span>
+	                               <img src="{{asset('images/facilities/Science Lab1.JPG')}}" alt="" />
+	                                <span class="category">Science Laboratory</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -191,8 +173,26 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/Creche4.JPG')}}" alt="" />
-	                                <span class="category">Creche</span>
+	                               <img src="{{asset('images/facilities/Science Lab2.JPG')}}" alt="" />
+	                                <span class="category">Science Laboratory</span>
+	                                <div class="overlay-layer">
+	                                	<span class="icon flaticon-unlink"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                     
+	                    </div>
+					</div>
+
+
+					<!--News Style Two-->
+	                <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+	                	<div class="inner-box">
+	                    	<!--Image Column-->
+	                        <div class="image-column">
+	                            <div class="image">
+	                               <img src="{{asset('images/facilities/ICTRoom.jpg')}}" alt="" />
+	                                <span class="category">ICT Room</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -210,8 +210,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/DiningRoom1.jpeg')}}" alt="" />
-	                                <span class="category">Dining Room</span>
+	                               <img src="{{asset('images/facilities/ArtRoom1.JPG')}}" alt="" />
+	                                <span class="category">Art Room</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -228,8 +228,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/DinningRoom2.jpg')}}" alt="" />
-	                                <span class="category">Dining Room</span>
+	                               <img src="{{asset('images/facilities/Library.JPG')}}" alt="" />
+	                                <span class="category">Library</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -245,8 +245,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/DirectorandFirstLady1.jpeg')}}" alt="" />
-	                                <span class="category">Director and First lady</span>
+	                               <img src="{{asset('images/facilities/Library3.jpeg')}}" alt="" height="250px"/>
+	                                <span class="category">Library</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -265,8 +265,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                                <img src="{{asset('images/facilities/ScienceLab1-min.JPG')}}" alt="" />
-	                                <span class="category">science lab</span>
+	                                <img src="{{asset('images/facilities/SwimmingPool1-min.JPG')}}" alt="" />
+	                                <span class="category">Swimming Pool</span>
 	                                <div class="overlay-layer">
 	                                	<span class="icon flaticon-unlink"></span>
 	                                </div>
@@ -282,8 +282,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                               <img src="{{asset('images/facilities/ScienceLab2-min.JPG')}}" alt="" />
-	                                <span class="category">Science lab</span>
+	                               <img src="{{asset('images/facilities/Playground_Basketball Court.jpg')}}" alt="" />
+	                                <span class="category">Basketball Court</span>
 	                                <div class="overlay-layer">
 	                            
 	                                </div>
@@ -299,8 +299,8 @@
 	                    	<!--Image Column-->
 	                        <div class="image-column">
 	                            <div class="image">
-	                                <img src="{{asset('images/facilities/ArtRoom1-min.JPG')}}" alt="" />
-	                                <span class="category">Art Room</span>
+	                                <img src="{{asset('images/facilities/Playground1.JPG')}}" alt="" />
+	                                <span class="category">Playground/Sandpit</span>
 	                                <div class="overlay-layer">
 	                                
 	                                </div>
@@ -323,8 +323,8 @@
 					    	<!--Image Column-->
 					        <div class="image-column">
 					            <div class="image">
-					                <img style="height: 250px" src="{{asset('images/facilities/MultipurposeHall3.jpeg')}}" alt="" />
-					                <span class="category">Multipurpose Hall</span>
+					                <img style="height: 250px" src="{{asset('images/facilities/Playground1(1).jpg')}}" alt="" />
+					                <span class="category">Playground/Field</span>
 					                <div class="overlay-layer">
 					                
 					                </div>
@@ -342,8 +342,8 @@
 					    	<!--Image Column-->
 					        <div class="image-column">
 					            <div class="image">
-					                <img style="height: 250px" src="{{asset('images/facilities/Library-min.JPG')}}" alt="" />
-					                <span class="category">Library</span>
+					                <img style="height: 250px" src="{{asset('images/facilities/Playground5.jpg')}}" alt="" />
+					                <span class="category">Playground</span>
 					                <div class="overlay-layer">
 					               
 					                </div>
@@ -360,8 +360,9 @@
 					    	<!--Image Column-->
 					        <div class="image-column">
 					            <div class="image">
-					                <img style="height: 250px" src="{{asset('images/facilities/SwimmingPool1-min.JPG')}}" alt="" />
-					                <span class="category">swimminng pool</span>
+					                <img style="height: 250px" src="{{asset('images/facilities/IndoorPlayArea.jpg')}}" alt="" />
+					                <span class="category">Indoor Play Area
+</span>
 					                <div class="overlay-layer">
 					                	
 					                </div>
@@ -386,8 +387,8 @@
 					    	<!--Image Column-->
 					        <div class="image-column">
 					            <div class="image">
-					                <img style="height: 250px" src="{{asset('images/facilities/Football2.jpeg')}}" alt="" />
-					                <span class="category">Football</span>
+					                <img style="height: 250px" src="{{asset('images/facilities/DiningRoom1.jpeg')}}" alt="" />
+					                <span class="category">Dining Room</span>
 					                <div class="overlay-layer">
 					  
 					                </div>
@@ -405,8 +406,8 @@
 					    	<!--Image Column-->
 					        <div class="image-column">
 					            <div class="image">
-					                <img style="height: 250px" src="{{asset('images/facilities/Playground_BasketballCourt.jpg')}}" alt="" />
-					                <span class="category">Basketball Court</span>
+					                <img style="height: 250px" src="{{asset('images/facilities/SickBay.jpg')}}" alt="" />
+					                <span class="category">Sick Bay</span>
 					                <div class="overlay-layer">
 					   
 					                </div>
@@ -423,8 +424,8 @@
 					    	<!--Image Column-->
 					        <div class="image-column">
 					            <div class="image">
-					                <img style="height: 250px" src="{{asset('images/facilities/CCTVControlRoom-min.jpg')}}" alt="" />
-					                <span class="category">CCTV Control Room</span>
+					                <img style="height: 250px" src="{{asset('images/facilities/MultipurposeHall3.jpeg')}}" alt="" />
+					                <span class="category">Multipurpose Hall</span>
 					                <div class="overlay-layer">
 					                	
 					                </div>
@@ -442,8 +443,8 @@
     				    	<!--Image Column-->
     				        <div class="image-column">
     				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/ICTRoom-min.jpg')}}" alt="" />
-    				                <span class="category">ICT Room</span>
+    				                <img style="height: 250px" src="{{asset('images/facilities/CCTVControlRoom.jpg')}}" alt="" />
+    				                <span class="category">CCTV Control Room</span>
     				                <div class="overlay-layer">
     				                
     				                </div>
@@ -462,8 +463,8 @@
     				    	<!--Image Column-->
     				        <div class="image-column">
     				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/ICTRoom2.jpg')}}" alt="" />	
-    				                <span class="category">ICT  ROOM</span>
+    				                <img style="height: 250px" src="{{asset('images/facilities/SchoolBuilding2.jpeg')}}" alt="" />	
+    				                <span class="category">School Building</span>
     				                <div class="overlay-layer">
     				                	
     				                </div>
@@ -473,67 +474,14 @@
     				    </div>
 					</div>
 					
-					<!--News Style Two-->
-    				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-    					<div class="inner-box">
-    				    	<!--Image Column-->
-    				        <div class="image-column">
-    				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/IndoorPlayArea.jpg')}}" alt="" />	
-    				                <span class="category">Indoor Play Area</span>
-    				                <div class="overlay-layer">
-    				                	
-    				                </div>
-    				            </div>
-    				        </div>
-    				       
-    				    </div>
-					</div>
-					
-
-					<!--News Style Two-->
-    				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-    					<div class="inner-box">
-    				    	<!--Image Column-->
-    				        <div class="image-column">
-    				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/Library3.jpeg')}}" alt="" />	
-    				                <span class="category">Library</span>
-    				                <div class="overlay-layer">
-    				                	
-    				                </div>
-    				            </div>
-    				        </div>
-    				       
-    				    </div>
-					</div>
-					
-					<!--News Style Two-->
-    				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-    					<div class="inner-box">
-    				    	<!--Image Column-->
-    				        <div class="image-column">
-    				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/MultipurposeHall1.jpeg')}}" alt="" />	
-    				                <span class="category">Multipurpose Hall</span>
-    				                <div class="overlay-layer">
-    				                	
-    				                </div>
-    				            </div>
-    				        </div>
-    				       
-    				    </div>
-    				</div>
-
-
     				<!--News Style Two-->
     				<div class="news-style-two col-md-4 col-sm-6 col-xs-12">
     					<div class="inner-box">
     				    	<!--Image Column-->
     				        <div class="image-column">
     				            <div class="image">
-    				                <img style="height: 250px" src="{{asset('images/facilities/SickBay.jpg')}}" alt="" />
-    				                <span class="category">Sick bay</span>
+    				                <img style="height: 250px" src="{{asset('images/facilities/Gymnasium.JPG')}}" alt="" />
+    				                <span class="category">Gymnasium</span>
     				                <div class="overlay-layer">
     				                
     				                </div>

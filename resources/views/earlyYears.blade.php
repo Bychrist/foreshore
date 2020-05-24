@@ -3,7 +3,7 @@
 @section('content')
 
        <!--Page Title-->
-       <section class="page-title" style="background-image:url({{asset('images/facilities/Library.JPG')}});">
+       <section class="page-title" style="background-image:url({{asset('images/facilities/Playground_Random.jpg')}});">
        	<div class="auto-container">
            	<div class="inner-box">
                    <h1>Academics</h1>
@@ -54,7 +54,7 @@
                    	<div class="teacher-block">
                        	<div class="inner-box reduce">
                        
-                               	<img src="{{asset('images/resource/creche2.png')}}" alt="" />
+                               	<img src="{{asset('images/facilities/Creche1.JPG')}}" alt="" />
                           
                               
                         </div>
@@ -66,11 +66,23 @@
                  	<div class="teacher-block ">
                      	<div class="inner-box reduce" >
                      
-                             	<img src="{{asset('images/resource/creche4.png')}}" alt="" />
+                             	<img src="{{asset('images/facilities/Creche2.JPG')}}" alt="" />
                         
                             
                       </div>
-                  </div>
+				  </div>
+
+
+				    <!--Teacher Block-->
+                 	<div class="teacher-block ">
+                     	<div class="inner-box reduce" >
+                     
+                             	<img src="{{asset('images/facilities/Creche3.JPG')}}" alt="" />
+                        
+                            
+                      </div>
+				  </div>
+				  
                        
                  
            
@@ -78,11 +90,13 @@
                   	<div class="teacher-block">
                       	<div class="inner-box reduce">
                       
-                              	<img src="{{asset('images/resource/creche3.png')}}" alt="" />
+                              	<img src="{{asset('images/facilities/Creche4.JPG')}}" alt="" />
                          
                              
                        </div>
-                   </div>
+				   </div>
+				   
+				   
                        
                    </div>
                    
@@ -179,7 +193,7 @@
                    	<div class="teacher-block">
                        	<div class="inner-box reduce">
                        
-                               	<img src="{{asset('images/resource/pre1.png')}}" alt="" />
+                               	<img src="{{asset('images/facilities/Classroom10.jpg')}}" alt="" />
                           
                               
                         </div>
@@ -189,7 +203,7 @@
                    	<div class="teacher-block">
                        	<div class="inner-box reduce">
                        
-                               	<img src="{{asset('images/resource/pre2.png')}}" alt="" />
+                               	<img src="{{asset('images/facilities/Classroom2.jpeg')}}" alt="" />
                           
                               
                         </div>
@@ -199,7 +213,7 @@
                  	<div class="teacher-block ">
                      	<div class="inner-box reduce" >
                      
-                             	<img src="{{asset('images/resource/pre3.png')}}" alt="" />
+                             	<img src="{{asset('images/facilities/SwimmingPool3-min.JPG')}}" alt="" />
                         
                             
                       </div>
@@ -209,7 +223,7 @@
                    	<div class="teacher-block">
                    	    	<div class="inner-box reduce">
                    	    
-                   	            <img src="{{asset('images/resource/pre4.png')}}" alt="" />
+                   	            <img src="{{asset('images/facilities/Classroom9.jpg')}}" alt="" />
                    	       
                    	           
                    	     </div>
@@ -219,7 +233,7 @@
                    	<div class="teacher-block">
                        	<div class="inner-box reduce">
                        
-             	<img src="{{asset('images/resource/creche1.png')}}" alt="" />
+             	<img src="{{asset('images/facilities/Playground_Preschool (Outdoor Session).jpeg')}}" alt="" height="250px" />
                           
                               
                         </div>
@@ -229,7 +243,7 @@
                   	<div class="teacher-block">
                       	<div class="inner-box reduce">
                       
-                              	<img src="{{asset('images/resource/pre2.png')}}" alt="" />
+                              	<img src="{{asset('images/facilities/FirstLadyLASG2.jpeg')}}" alt="" height="250px" />
                          
                              
                        </div>
@@ -336,7 +350,7 @@
 		      			           <br>
 		      			           <br>`
 		      			           	<h2 style="font-size: 20px;letter-spacing: 3px;">What your child will benefit from a Crèche/Preschool</h2>
-		      		              <div class="title" style="font-size: 15px">The Foreshore Preschool</div>
+		      		              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
 		      			             
 		      			            
 		      			           </div>
@@ -412,7 +426,7 @@
          		      			          
          		      			           <br>`
          		      			           	<h2 style="font-size: 20px;letter-spacing: 3px;">Regular Schedule/Activities</h2>
-         		      		              <div class="title" style="font-size: 15px">The Foreshore Preschool</div>
+         		      		              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
          		      			             
          		      			            
          		      			           </div>
@@ -477,7 +491,7 @@
    			          
    			           <br>`
    			           	<h2 style="font-size: 20px;letter-spacing: 3px;">Interaction</h2>
-   		              <div class="title" style="font-size: 15px">The Foreshore Preschool</div>
+   		              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
    			             
    			            
    			           </div>
@@ -539,7 +553,7 @@
 	 			          
 	 			           <br>`
 	 			           	<h2 style="font-size: 20px;letter-spacing: 3px;">Higher Cognitive and Academic Achievement</h2>
-	 		              <div class="title" style="font-size: 15px">The Foreshore Preschool</div>
+	 		              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
 	 			             
 	 			            
 	 			           </div>
@@ -556,15 +570,15 @@
 	                       </p>
 
 
-	                       <h3>
+	                       <h4>
 	                       	Smoother Transition to Nursery
-	                       </h3>
+	                       </h4>
 
 	                       <p>
 	                       	Infants who start school early easily adjust to formal schooling. They settle into routines easily and hardly experience separation anxiety.
 	                       </p>
 
-	                       <h3>Social and Economic Benefits for Parents</h3>
+	                       <h4>Social and Economic Benefits for Parents</h4>
 	                       <p>
 	                       	Parents experience less anxiety and fear on how their children are doing when left with care providers in a structured environment. In other words, you can get a job or go back to work without having to bother if your child is safe or not. Even for stay-at –home mums who run their businesses from the comfort of their homes, enrolling your child in our crèche and preschool affords you that “me” time to meet your set goals and deadlines.
 	                       </p>
@@ -582,7 +596,7 @@
 
 
 	        <center><h3>
-Make the “TFS choice” and watch your child blossom.</h3></center>
+Make the TFS choice and watch your child blossom.</h3></center>
 	        
 	          
 	           
