@@ -9,8 +9,8 @@
 	            <div class="tp-banner">
 	                <ul>
 	                	
-	                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('images/main-slider/image-1.jpg')}}"  data-saveperformance="off"  data-title="Awesome Title Here">
-	                    <img src="{{asset('images/main-slider/image-1.jpg')}}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+	                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('images/main-slider/DSC_3844.jpeg')}}"  data-saveperformance="off"  data-title="Awesome Title Here">
+	                    <img src="{{asset('images/main-slider/DSC_3844.jpeg')}}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
 	                    
 	                    <div class="overlay-slide"></div>
 	                    
@@ -38,7 +38,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><div class="styled-text">Welcome To The Foreshore School</div></div>
+	                    data-endeasing="Power4.easeIn"><div class="styled-text" style="color: #840c00">Welcome To The Foreshore School</div></div>
 	                    
 	                    <div class="tp-caption sfb sfb tp-resizeme"
 	                    data-x="center" data-hoffset="0"
@@ -51,7 +51,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><div class="border-heading">Give Your Child A Great Beginning</div></div>
+	                    data-endeasing="Power4.easeIn"><div class="border-heading" style="color: #840c00">Give Your Child A Great Beginning</div></div>
 
 	                    <div class="tp-caption sfb sfb tp-resizeme"
 	                    data-x="center" data-hoffset="0"
@@ -64,7 +64,7 @@
 	                    data-elementdelay="0.01"
 	                    data-endelementdelay="0.3"
 	                    data-endspeed="1200"
-	                    data-endeasing="Power4.easeIn"><div class="text">Your children are safe with us</div></div>
+	                    data-endeasing="Power4.easeIn"><div class="text" style="color: yellow">Your children are safe with us</div></div>
 	                    
 	                    <div class="tp-caption sfb sfb tp-resizeme"
 	                    data-x="center" data-hoffset="0"
