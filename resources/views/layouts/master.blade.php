@@ -71,7 +71,7 @@ input[type=submit]:hover {
 	<div class="page-wrapper">
 	 	
 	    <!-- Preloader -->
-	  
+	  <div class="preloader"></div>
 	 	
 	    <!-- Main Header-->
 	    <header class="main-header">
