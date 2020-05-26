@@ -43,7 +43,7 @@
                		           <div class="sec-title ">
                		           
                		           	<h2 style="font-size: 20px;letter-spacing: 3px;">Crèche (3 - 17months)</h2>
-               	              <div class="title" style="font-size: 15px">The Foreshore School Early Years</div>
+               	              {{-- <div class="title" style="font-size: 15px">The Foreshore School Early Years</div> --}}
                		             
                		            
                		           </div>
@@ -182,7 +182,7 @@
                		           <div class="sec-title ">
                		           
                		           	<h2 style="font-size: 20px;letter-spacing: 3px;">Preschool (18 months – 3years) and Nursery (3 – 5years)</h2>
-               	              <div class="title" style="font-size: 15px">The Foreshore Preschool</div>
+               	              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
                		             
                		            
                		           </div>
@@ -544,6 +544,90 @@
   <!-- /Interaction -->
 
 
+
+  {{-- Smoother Transition to Nursery --}}
+
+	<section class="teachers-section teacher-page" style="margin-bottom: -300px;">
+	 <div class="auto-container">
+
+	 			           <div class="sec-title ">
+	 			          
+	 			           <br>`
+	 			           	<h2 style="font-size: 20px;letter-spacing: 3px;"> Smoother Transition to Nursery</h2>
+	 		              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
+	 			             
+	 			            
+	 			           </div>
+	    <div class="row clasic-block">
+
+	            <div class="teacher-block col-md-12 col-sm-12 col-xs-12">
+	                <div class="inner-box" style="text-align: justify;padding-top: 20px;padding-bottom: 0px;">
+	                          
+	                   <div class="scroll-bar-wrap" style="padding-bottom: 30px">
+	                     <div class="" style="height: 60px; overflow-y: scroll;padding-right: 50px"> 
+	                       <p>
+	                       
+	                         	Infants who start school early easily adjust to formal schooling. They settle into routines easily and hardly experience separation anxiety.
+	                       </p>
+	                     </div>
+	                   </div>
+
+	                           
+	                   </div>
+	            </div>    
+	           
+	          
+	        </div>
+
+	          
+	         </div>
+
+
+	    </div>
+	</section>
+
+	{{-- Social and Economic Benefits for Parents--}}
+
+	<section class="teachers-section teacher-page" style="margin-bottom: -300px;">
+	 <div class="auto-container">
+
+	 			           <div class="sec-title ">
+	 			          
+	 			           <br>`
+	 			           	<h2 style="font-size: 20px;letter-spacing: 3px;"> Social and Economic Benefits for Parents</h2>
+	 		              {{-- <div class="title" style="font-size: 15px">The Foreshore Preschool</div> --}}
+	 			             
+	 			            
+	 			           </div>
+	    <div class="row clasic-block">
+
+	            <div class="teacher-block col-md-12 col-sm-12 col-xs-12">
+	                <div class="inner-box" style="text-align: justify;padding-top: 20px;padding-bottom: 0px;">
+	                          
+	                   <div class="scroll-bar-wrap" style="padding-bottom: 30px">
+	                     <div class="" style="height: 100px; overflow-y: scroll;padding-right: 50px"> 
+	                       <p>
+	                       
+	                         		Parents experience less anxiety and fear on how their children are doing when left with care providers in a structured environment. In other words, you can get a job or go back to work without having to bother if your child is safe or not. Even for stay-at –home mums who run their businesses from the comfort of their homes, enrolling your child in our crèche and preschool affords you that “me” time to meet your set goals and deadlines.
+	                       </p>
+	                     </div>
+	                   </div>
+
+	                           
+	                   </div>
+	            </div>    
+	           
+	          
+	        </div>
+
+	          
+	         </div>
+
+
+	    </div>
+	</section>
+
+
   {{-- Higher congnitive and  academic achievement --}}
 
 	<section class="teachers-section teacher-page" style="margin-bottom: -300px;">
@@ -567,21 +651,8 @@
 	                       <p>
 	                       
 	                         Studies in the United States have shown that young children have higher cognitive and academic achievement scores as teens if they spent time in a high-quality daycare as young children. Of the more than 1,300 children studied, over 90 percent had been in the care of someone other than a parent before the age of 4. The study defined “high-quality” daycare as facilities that provide extensive interaction with care providers, support, and cognitive-boosting activities.
-	                       </p>
-
-
-	                       <h4>
-	                       	Smoother Transition to Nursery
-	                       </h4>
-
-	                       <p>
-	                       	Infants who start school early easily adjust to formal schooling. They settle into routines easily and hardly experience separation anxiety.
-	                       </p>
-
-	                       <h4>Social and Economic Benefits for Parents</h4>
-	                       <p>
-	                       	Parents experience less anxiety and fear on how their children are doing when left with care providers in a structured environment. In other words, you can get a job or go back to work without having to bother if your child is safe or not. Even for stay-at –home mums who run their businesses from the comfort of their homes, enrolling your child in our crèche and preschool affords you that “me” time to meet your set goals and deadlines.
-	                       </p>
+						   </p>
+						   
 	                       <p>
 	                       	Lastly, here at TFS we have enough care and love to go round. It’s all about nurturing our young ones in a happy, safe and enabling environment.
 	                       </p>
